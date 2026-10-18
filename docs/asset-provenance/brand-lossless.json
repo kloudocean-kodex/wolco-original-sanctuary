@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-21T10:49:09.669Z",
+  "pixelsIdentical": true,
+  "files": [
+    {
+      "file": "public/brand/wolco-original-logo.png",
+      "bytes": 30369,
+      "sha256": "5a56efeb61d62b8ea041d167636b8a5ac4a910b9def2e4dfe45e9904d902ea09"
+    },
+    {
+      "file": "public/brand/wolco-original-logo.webp",
+      "bytes": 8926,
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
+    }
+  ]
+}

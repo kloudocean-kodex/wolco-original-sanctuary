@@ -1,0 +1,102 @@
+{
+  "classification": "Fictional AI-generated architectural concept film",
+  "technique": "Edit directly from retained original Gemini-generated video downloads with restrained cross-dissolves and a single final H.264 encode. No still animation or frame interpolation. Full source frames retained; any source marks remain visible.",
+  "generation_date": "2026-10-18",
+  "web_output": "generated-architectural-journey.mp4",
+  "story_clips": [
+    {
+      "web_clip": "generated-exterior-film.mp4",
+      "retained_original": "originals\\video\\generated-exterior-film-source.mp4",
+      "model_label": "Gemini web app Create video; onboarding displayed Gemini Omni",
+      "source_sha256": "1e5c6b511f87970506867178904d7f0171fefa678b0700d91fffe39f15525ba7",
+      "provenance": "generated-exterior-film-provenance.json"
+    },
+    {
+      "web_clip": "generated-materials-film.mp4",
+      "retained_original": "originals\\video\\generated-materials-film-source.mp4",
+      "model_label": "Gemini web app Create video; exact model version not separately confirmed for this account",
+      "source_sha256": "35b60035c39e271f4d2bbe6d11203c3db81b93a18deca1b2317ad25e70cced36",
+      "provenance": "generated-materials-film-provenance.json"
+    },
+    {
+      "web_clip": "generated-kitchen-film.mp4",
+      "retained_original": "originals\\video\\generated-kitchen-film-source.mp4",
+      "model_label": "Gemini web app Create video; onboarding displayed Gemini Omni",
+      "source_sha256": "cd92781a1a49be3a61f320d0f3f02bd4e011d190e7e3b0b45fc3cfe584b80ac5",
+      "provenance": "generated-kitchen-film-provenance.json"
+    },
+    {
+      "web_clip": "generated-living-film.mp4",
+      "retained_original": "originals\\video\\generated-living-film-source.mp4",
+      "model_label": "Gemini web app Create video; exact model version not separately confirmed for this account",
+      "source_sha256": "5524ba9a8133a677f66ab0b6bf5cd7aad2369b9968d0690c418c7a54000e5f01",
+      "provenance": "generated-living-film-provenance.json"
+    }
+  ],
+  "dissolve_seconds": 0.5,
+  "expected_duration_seconds": 38.5,
+  "duration_tolerance_seconds": 0.21666666666666667,
+  "output_verification": {
+    "full_decode_ok": true,
+    "duration_seconds": 38.42,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "fps": 24.0,
+    "decoded_frames": 922,
+    "has_audio": false,
+    "codec_line": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2518 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "bytes": 12104844,
+    "sha256": "abdd480d1e95f29087cb9e36f8a542bb8527fee3da34e2539b7c6abc79edd1bd",
+    "faststart": true
+  },
+  "poster": "generated-architectural-journey-poster.webp",
+  "contact_sheet": "qa\\generated-architectural-journey-contact-sheet.png",
+  "visual_review": {
+    "reviewed_by": "Release owner",
+    "sequence": "Arrival \u2192 Touch \u2192 Gather \u2192 Dwell",
+    "evidence": [
+      "qa/generated-architectural-journey-contact-sheet.png",
+      "qa/generated-architectural-journey-transitions.png"
+    ],
+    "result": "Twelve sequence frames and nine boundary samples inspected. Coherent warm palette, rigid architectural/material geometry, continuous genuine generated motion, smooth dissolves with no black gap. Full frames and visible source marks retained."
+  },
+  "encoding_command": [
+    "C:\\Users\\gawar\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-hide_banner",
+    "-y",
+    "-filter_complex_threads",
+    "2",
+    "-i",
+    "<workspace>\\wolco-shared-assets\\originals\\video\\generated-exterior-film-source.mp4",
+    "-i",
+    "<workspace>\\wolco-shared-assets\\originals\\video\\generated-materials-film-source.mp4",
+    "-i",
+    "<workspace>\\wolco-shared-assets\\originals\\video\\generated-kitchen-film-source.mp4",
+    "-i",
+    "<workspace>\\wolco-shared-assets\\originals\\video\\generated-living-film-source.mp4",
+    "-filter_complex",
+    "[0:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v0];[1:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v1];[2:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v2];[3:v]scale=1280:720:force_original_aspect_ratio=decrease:force_divisible_by=2,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black,setsar=1,format=yuv420p,setpts=PTS-STARTPTS,fps=24,settb=AVTB[v3];[v0][v1]xfade=transition=fade:duration=0.5:offset=9.500000,fps=24,settb=AVTB[edit1];[edit1][v2]xfade=transition=fade:duration=0.5:offset=19.000000,fps=24,settb=AVTB[edit2];[edit2][v3]xfade=transition=fade:duration=0.5:offset=28.500000,fps=24,settb=AVTB[edit3]",
+    "-map",
+    "[edit3]",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "21",
+    "-profile:v",
+    "high",
+    "-pix_fmt",
+    "yuv420p",
+    "-fps_mode",
+    "cfr",
+    "-movflags",
+    "+faststart",
+    "-threads",
+    "4",
+    "<workspace>\\wolco-shared-assets\\generated-architectural-journey.mp4"
+  ]
+}

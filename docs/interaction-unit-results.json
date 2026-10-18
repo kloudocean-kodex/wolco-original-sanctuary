@@ -1,0 +1,94 @@
+{
+  "observedAt": "2026-10-18T09:44:16.644Z",
+  "suite": "DOM interaction unit checks",
+  "scope": "Application state, rendered controls, validation, draft/download contents and absence of unexpected network calls. Platform adapters do not test layout, native dialog focus trapping, real media playback or actual browser downloads.",
+  "sourceSha256": "19cb81dccd542311086a3042f12b96531a8f913f1fa2762dd4af9c4363ae132c",
+  "checks": [
+    {
+      "name": "All displayed inline action functions exist",
+      "pass": true
+    },
+    {
+      "name": "Four hero selectors update image and selected state",
+      "pass": true
+    },
+    {
+      "name": "Category filters return 1 architecture, 2 interiors, 1 detail, 4 total",
+      "pass": true
+    },
+    {
+      "name": "Combined filters have a useful empty state and reset",
+      "pass": true
+    },
+    {
+      "name": "All four study dialogs open with matching content and close",
+      "pass": true
+    },
+    {
+      "name": "Search filters and opens the matching study",
+      "pass": true
+    },
+    {
+      "name": "Ground and first floor show their own hotspots",
+      "pass": true
+    },
+    {
+      "name": "Mirror has reversible visual and pressed state",
+      "pass": true
+    },
+    {
+      "name": "All four room controls update their own image, description and ideas",
+      "pass": true
+    },
+    {
+      "name": "Three palettes update four finish records and selected state",
+      "pass": true
+    },
+    {
+      "name": "All twelve journey cards select their matching banner",
+      "pass": true
+    },
+    {
+      "name": "Scale planner converts 40 squares to 372 square metres and adds chosen mood",
+      "pass": true
+    },
+    {
+      "name": "Blank form cannot open a brief",
+      "pass": true
+    },
+    {
+      "name": "Valid form creates an editable brief including the chosen direction",
+      "pass": true
+    },
+    {
+      "name": "Editing brief synchronizes the explicit email draft",
+      "pass": true
+    },
+    {
+      "name": "Download contains the reviewed text and correct filename",
+      "pass": true
+    },
+    {
+      "name": "Closing review preserves original form details",
+      "pass": true
+    },
+    {
+      "name": "Study-to-enquiry action preserves its destination and text focus",
+      "pass": true
+    },
+    {
+      "name": "Film loads on request and pauses on dialog close",
+      "pass": true
+    },
+    {
+      "name": "Privacy and preview details open as real dialogs",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu state is reversible",
+      "pass": true
+    }
+  ],
+  "passed": 21,
+  "errors": []
+}

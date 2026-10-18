@@ -1,0 +1,33 @@
+{
+  "observedAt": "2026-10-18",
+  "engine": "axe-core in Edge",
+  "results": [
+    {
+      "viewport": "desktop",
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 76
+        }
+      ],
+      "passes": 46,
+      "violations": []
+    },
+    {
+      "viewport": "mobile",
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 48
+        }
+      ],
+      "passes": 46,
+      "violations": []
+    }
+  ],
+  "limits": "Automated scans do not establish WCAG conformance. Contrast over imagery, motion, reading order and native media require manual review."
+}

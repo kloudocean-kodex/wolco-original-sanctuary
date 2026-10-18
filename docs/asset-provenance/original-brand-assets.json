@@ -1,0 +1,23 @@
+[
+  {
+    "path": "public/brand/wolco-original-logo.png",
+    "source": "https://wolcohomes.com.au/wp-content/uploads/2025/03/Screenshot-2025-03-01-at-7.51.59%E2%80%AFpm.png",
+    "bytes": 30369,
+    "sha256": "5a56efeb61d62b8ea041d167636b8a5ac4a910b9def2e4dfe45e9904d902ea09",
+    "treatment": "Original file copied unchanged; aspect ratio retained"
+  },
+  {
+    "path": "public/brand/wolco-original-footer.png",
+    "source": "https://wolcohomes.com.au/wp-content/uploads/2025/03/Screenshot_2025-03-13_at_2.47.37_pm-removebg-preview.png",
+    "bytes": 72791,
+    "sha256": "da8c6918cd6272b268be5b42d82fd26d1d842b6a53a616b3f663fc488d053b3f",
+    "treatment": "Original file copied unchanged; aspect ratio retained"
+  },
+  {
+    "path": "public/brand/wolco-original-icon.png",
+    "source": "https://wolcohomes.com.au/wp-content/uploads/2025/03/cropped-W-3.png",
+    "bytes": 25572,
+    "sha256": "a469aa0e4aa2ff39cec13dedbbae5a6d243aa59db05adbcdfece3948e4d66c77",
+    "treatment": "Original file copied unchanged; aspect ratio retained"
+  }
+]

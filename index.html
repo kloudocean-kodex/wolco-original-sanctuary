@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en-AU">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>WOLCO Homes — Sanctuary / Homes crafted around your life</title>
+
+
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+
+
+
+
+
+
+
+
+<style>
+    :root {
+      --bg-alabaster: #FBF9F5;
+      --bg-travertine: #F3ECE2;
+      --bg-sandstone: #E8E0D2;
+      --bg-espresso: #1A1715;
+      --text-espresso: #1A1715;
+      --text-taupe: #696259;
+      --text-stone: #8E877D;
+      --accent-garnet: #8C1D28;
+      --accent-garnet-vivid: #A82230;
+      --accent-bronze: #BA9964;
+      --accent-bronze-light: #D4B98B;
+      --line-subtle: rgba(26, 23, 21, 0.08);
+      --line-medium: rgba(26, 23, 21, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-alabaster);
+      color: var(--text-espresso);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-alabaster);
+      color: var(--text-espresso);
+      overflow-x: hidden;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .font-serif-editorial {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+
+    .font-cinzel {
+      font-family: 'Cinzel', serif;
+    }
+
+    .font-bebas {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    /* Tactile Paper Grain Overlay */
+    .bg-tactile-noise {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
+    }
+
+    /* Refined Quiet Luxury Frosted Glass */
+    .glass-sanctuary {
+      background: rgba(251, 249, 245, 0.84);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(26, 23, 21, 0.1);
+    }
+
+    .glass-espresso {
+      background: rgba(26, 23, 21, 0.78);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(251, 249, 245, 0.18);
+    }
+
+    .glass-garnet {
+      background: rgba(140, 29, 40, 0.08);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(140, 29, 40, 0.25);
+    }
+
+    /* Subtle Hairline Architectural Grid */
+    .bg-architectural-lines {
+      background-size: 60px 60px;
+      background-image:
+        linear-gradient(to right, rgba(26, 23, 21, 0.035) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(26, 23, 21, 0.035) 1px, transparent 1px);
+    }
+
+    ::selection {
+      background-color: var(--accent-garnet);
+      color: #FBF9F5;
+    }
+
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F3ECE2;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #8C1D28;
+      border-radius: 2px;
+    }
+
+    /* Pulse animation for floorplan hotspots */
+    @keyframes pulseRing {
+      0% { transform: scale(0.95); opacity: 0.9; }
+      100% { transform: scale(2.2); opacity: 0; }
+    }
+    .animate-hotspot-ring {
+      animation: pulseRing 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+    }
+  </style>
+<link href="/assets/tailwind.css" rel="stylesheet"/><link href="/assets/fonts.css" rel="stylesheet"/><link href="/src/refinements.css" rel="stylesheet"/><meta content="noindex,nofollow" name="robots"/><meta content="Homes crafted around your life. Explore WOLCO Sanctuary, architectural studies, material palettes and your personal home brief." name="description"/><meta content="website" property="og:type"/><meta content="WOLCO Homes — Sanctuary" property="og:title"/><meta content="Homes crafted around your life." property="og:description"/><meta content="https://wolco-original-sanctuary.pages.dev/" property="og:url"/><meta content="https://wolco-original-sanctuary.pages.dev/media/generated-exterior-dusk.webp" property="og:image"/><meta content="1600" property="og:image:width"/><meta content="900" property="og:image:height"/><link href="/brand/wolco-original-logo.webp" rel="icon" type="image/webp"/></head>
+<body class="bg-[#FBF9F5] text-[#1A1715] antialiased selection:bg-[#8C1D28] selection:text-[#FBF9F5] relative bg-tactile-noise"><a class="sanctuary-skip" href="#main">Skip to content</a>
+
+<div aria-label="WOLCO studio information" class="bg-[#1A1715] text-[#FBF9F5] text-[10px] uppercase tracking-[0.24em] py-2.5 px-6 md:px-12 border-b border-[#BA9964]/25 relative z-50" id="studio-ribbon" role="region">
+<div class="max-w-[1520px] mx-auto flex flex-wrap items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<span class="inline-flex items-center gap-2 text-[#BA9964]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#8C1D28] animate-ping"></span>
+<span>WOW SELECTION STUDIO</span>
+</span>
+<span class="hidden sm:inline text-white/30">•</span>
+<span class="hidden sm:inline text-white/70">9/28 LONGFORD RD, EPPING VIC 3076</span>
+<span class="hidden md:inline text-white/30">•</span>
+
+</div>
+<div class="flex items-center gap-6 text-[#E8E0D2]/90">
+
+<button aria-label="Watch the architectural film" class="flex items-center gap-2 hover:text-[#BA9964] transition-colors cursor-pointer group" id="ambience-toggle-btn" onclick="openShowreelModal()" title="Watch the architectural film" type="button"><span aria-hidden="true">▶</span><span>THE ARCHITECTURAL FILM</span></button>
+<span class="text-white/30">•</span>
+<span class="hidden lg:inline">HOMES CRAFTED AROUND YOUR LIFE</span>
+<span class="hidden lg:inline text-white/30">•</span>
+<a class="text-white font-medium hover:text-[#BA9964] transition-colors flex items-center gap-1.5" href="tel:1300163666">
+<i class="w-3 h-3 text-[#BA9964]" data-lucide="phone"></i>
+<span class="font-mono">1300 16 36 66</span>
+</a>
+</div>
+</div>
+</div>
+
+<header class="sticky top-0 left-0 right-0 z-50 transition-all duration-500 bg-[#FBF9F5]/85 backdrop-blur-2xl border-b border-[#1A1715]/10 py-5" id="main-navbar">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12 flex items-center justify-between">
+
+<button aria-label="WOLCO Homes — return to top" class="flex items-center gap-4 group text-left focus:outline-none cursor-pointer" onclick="smoothScrollTo('home')" type="button"><img alt="WOLCO Homes" class="sanctuary-logo" height="286" src="/brand/wolco-original-logo.webp" width="606"/><span class="brand-edition">SANCTUARY<br/><small>MELBOURNE / VICTORIA</small></span></button>
+
+<nav class="hidden xl:flex items-center gap-8" id="desktop-nav">
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="home" onclick="smoothScrollTo('home')" type="button">
+          Sanctuary
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-full"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="designs" onclick="smoothScrollTo('designs')" type="button">
+          Home Designs
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="interactive-cad" onclick="smoothScrollTo('interactive-cad')" type="button">
+          Spaces for Living
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="wow-studio" onclick="smoothScrollTo('wow-studio')" type="button">
+          WOW Studio
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="calculator" onclick="smoothScrollTo('calculator')" type="button">
+          Your Home Brief
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="journey" onclick="smoothScrollTo('journey')" type="button">
+          12 Steps
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+<button class="nav-link relative py-1 text-xs uppercase tracking-[0.22em] font-medium text-[#696259] hover:text-[#1A1715] transition-colors duration-300 cursor-pointer" data-nav="contact" onclick="smoothScrollTo('contact')" type="button">
+          Consultation
+          <span class="nav-underline absolute bottom-0 left-0 h-[1.5px] bg-[#8C1D28] transition-all duration-500 w-0"></span>
+</button>
+</nav>
+
+<div class="flex items-center gap-3.5">
+<button aria-label="Search Home Designs" class="w-10 h-10 rounded-full bg-[#F3ECE2] border border-[#1A1715]/15 hover:border-[#8C1D28] flex items-center justify-center text-[#1A1715] transition-all duration-300 cursor-pointer" onclick="openSearchModal()" title="Search Home Designs" type="button">
+<i class="w-4 h-4" data-lucide="search"></i>
+</button>
+<button class="hidden sm:inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-[#1A1715] hover:bg-[#8C1D28] text-[#FBF9F5] font-medium text-xs uppercase tracking-[0.2em] border border-[#BA9964]/40 hover:border-[#FBF9F5] shadow-[0_8px_25px_rgba(26,23,21,0.12)] transition-all duration-500 cursor-pointer" id="magnetic-btn" onclick="bookConsultation('Step 01 Detailed Proposal @ WOW Selection Studio')" type="button">
+<span class="w-1.5 h-1.5 rounded-full bg-[#BA9964]"></span>
+<span>Plan WOW Studio</span>
+<i class="w-3.5 h-3.5" data-lucide="arrow-up-right"></i>
+</button>
+<button aria-controls="mobile-drawer" aria-expanded="false" aria-haspopup="dialog" aria-label="Toggle Navigation" class="w-10 h-10 rounded-full bg-[#F3ECE2] border border-[#1A1715]/15 hover:border-[#8C1D28] flex items-center justify-center text-[#1A1715] transition-colors xl:hidden cursor-pointer" onclick="toggleMobileMenu()" type="button">
+<i class="w-4 h-4" data-lucide="menu"></i>
+</button>
+</div>
+</div>
+</header>
+
+<dialog aria-label="Navigation" class="fixed inset-0 z-40 bg-[#FBF9F5]/98 backdrop-blur-2xl hidden flex-col justify-between pt-28 pb-10 px-8 xl:hidden sanctuary-dialog" id="mobile-drawer" onclick="if(event.target===this) closeLayer(this.id)">
+<div class="flex flex-col space-y-3">
+<div class="flex items-center justify-between pb-3 border-b border-[#1A1715]/10">
+<span class="text-[10px] uppercase tracking-[0.3em] text-[#8C1D28] font-semibold">WORLD OF WOLCO DIRECTORY</span>
+<button aria-label="Close navigation" autofocus="" class="w-9 h-9 rounded-full bg-[#F3ECE2] flex items-center justify-center text-[#1A1715]" onclick="toggleMobileMenu()" type="button">
+<i class="w-4 h-4" data-lucide="x"></i>
+</button>
+</div>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('home')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">01. Sanctuary</span>
+<span class="text-xs font-mono text-[#8C1D28]">HOME</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('designs')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">02. Home Designs</span>
+<span class="text-xs font-mono text-[#8C1D28]">CONCEPT STUDIES</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('interactive-cad')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">03. Spaces for Living</span>
+<span class="text-xs font-mono text-[#8C1D28]">SPACE STUDY</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('wow-studio')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">04. WOW Selection Studio</span>
+<span class="text-xs font-mono text-[#8C1D28]">EPPING</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('calculator')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">05. Your Home Brief</span>
+<span class="text-xs font-mono text-[#8C1D28]">BRIEF PLANNER</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('journey')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">06. 12 Steps</span>
+<span class="text-xs font-mono text-[#8C1D28]">ROADMAP</span>
+</button>
+<button class="flex items-center justify-between py-2 text-left group" onclick="toggleMobileMenu(); smoothScrollTo('contact')" type="button">
+<span class="font-serif-editorial text-3xl italic text-[#1A1715] group-hover:text-[#8C1D28]">07. Begin a Conversation</span>
+<span class="text-xs font-mono text-[#8C1D28]">STEP 01</span>
+</button>
+</div>
+<div class="space-y-4 pt-4 border-t border-[#1A1715]/10">
+<button class="w-full py-4 rounded-full bg-[#1A1715] hover:bg-[#8C1D28] text-white text-xs uppercase tracking-[0.24em] font-semibold flex items-center justify-center gap-2 shadow-lg" onclick="toggleMobileMenu(); bookConsultation('Step 01 Detailed Proposal @ WOW Studio')" type="button">
+<span>Plan a WOW Studio Visit</span>
+<i class="w-4 h-4" data-lucide="arrow-up-right"></i>
+</button>
+<div class="flex items-center justify-between text-[11px] text-[#696259] tracking-widest uppercase">
+<span>9/28 LONGFORD RD, EPPING VIC</span>
+<a class="text-[#8C1D28] font-mono font-semibold" href="tel:1300163666">1300 16 36 66</a>
+</div>
+</div>
+</dialog>
+<main id="main">
+
+<section class="relative w-full min-h-[92vh] flex items-center overflow-hidden bg-[#F3ECE2] py-16 lg:py-24 border-b border-[#1A1715]/10" id="home">
+
+<img alt="Generated architectural visualisation of a warm stone home in a planted garden at dusk" class="absolute inset-0 w-full h-full object-cover object-center scale-[1.01] transition-all duration-700 brightness-[1.02] saturate-[0.92]" fetchpriority="high" height="900" id="hero-visual" src="/media/generated-exterior-dusk.webp" width="1600"/>
+
+<div class="pointer-events-none absolute inset-y-0 left-0 w-full lg:w-[65%] bg-gradient-to-r from-[#FBF9F5] via-[#FBF9F5]/92 to-transparent z-10"></div>
+<div class="pointer-events-none absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-[#FBF9F5] via-[#FBF9F5]/75 to-transparent z-10"></div>
+
+<div class="relative z-20 max-w-[1520px] mx-auto w-full px-6 md:px-12 flex flex-col lg:flex-row items-start lg:items-end justify-between gap-12">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#F3ECE2]/90 border border-[#BA9964]/40 mb-6 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-[#8C1D28] animate-ping"></span>
+<span class="text-[10px] uppercase tracking-[0.28em] text-[#1A1715] font-semibold">
+              QUIET LUXURY CUSTOM HOMES • MELBOURNE &amp; VICTORIA
+            </span>
+</div>
+
+<div class="mb-6 select-none" id="hero-heading">
+<span class="block overflow-hidden">
+<span class="hero-word inline-block font-serif-editorial italic font-normal text-4xl sm:text-5xl md:text-6xl text-[#8C1D28] tracking-tight mb-2">
+                The Quiet Luxury of Australian Living,
+              </span>
+</span>
+<h1 aria-label="Homes crafted around your life" class="font-cinzel text-[3.2rem] sm:text-[4.6rem] md:text-[5.8rem] xl:text-[6.6rem] leading-[0.92] tracking-[0.06em] uppercase text-[#1A1715] font-semibold">
+<span class="block overflow-hidden pb-1">
+<span class="hero-word inline-block">HOMES</span>
+<span class="hero-word inline-block font-serif-editorial italic font-normal text-[#8C1D28] ml-4 sm:ml-6">Crafted</span>
+</span>
+<span class="block overflow-hidden pb-1">
+<span class="hero-word inline-block">AROUND</span>
+<span class="hero-word inline-block text-[#BA9964] ml-3 sm:ml-5">YOUR</span>
+<span class="hero-word inline-block ml-3 sm:ml-5">LIFE</span>
+</span>
+</h1>
+</div>
+
+<p class="text-base sm:text-lg text-[#554E46] font-normal leading-relaxed max-w-2xl mb-8" id="hero-subtext">A considered home begins with the way you live. Explore architectural ideas, tactile materials and the details that bring them together at WOLCO’s <span class="text-[#8C1D28] font-semibold">WOW Selection Studio</span>.</p>
+
+<div class="mb-8 p-4 rounded-2xl bg-[#FBF9F5]/90 border border-[#1A1715]/10 shadow-sm backdrop-blur-md">
+<div class="flex items-center justify-between mb-2.5">
+<span class="text-[10px] uppercase tracking-[0.28em] text-[#696259] font-semibold">
+                SELECT AN ARCHITECTURAL STUDY
+              </span>
+<span class="text-[10px] font-mono uppercase tracking-widest text-[#8C1D28] font-semibold" id="facade-series-tag">
+                THE ARRIVAL
+              </span>
+</div>
+<div class="flex flex-wrap gap-2" id="facade-buttons"></div>
+</div>
+
+<div class="flex flex-wrap items-center gap-4" id="hero-ctas">
+<button class="group px-8 py-4 rounded-full bg-[#1A1715] hover:bg-[#8C1D28] text-[#FBF9F5] font-semibold text-xs uppercase tracking-[0.24em] border border-[#BA9964]/40 hover:border-[#FBF9F5] shadow-[0_12px_30px_rgba(26,23,21,0.15)] transition-all duration-500 flex items-center gap-3 cursor-pointer" onclick="smoothScrollTo('designs')" type="button">
+<span>Explore Home Designs</span>
+<i class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" data-lucide="arrow-right"></i>
+</button>
+<button class="group px-7 py-4 rounded-full bg-[#FBF9F5]/90 hover:bg-[#1A1715] text-[#1A1715] hover:text-[#FBF9F5] font-semibold text-xs uppercase tracking-[0.22em] border border-[#1A1715]/15 shadow-sm transition-all duration-500 flex items-center gap-2.5 cursor-pointer" onclick="smoothScrollTo('interactive-cad')" type="button">
+<i class="w-4 h-4 text-[#8C1D28]" data-lucide="ruler"></i>
+<span>Explore Spaces &amp; Details</span>
+</button>
+<button class="group px-5 py-4 rounded-full bg-[#F3ECE2]/95 hover:bg-[#8C1D28] text-[#1A1715] hover:text-white text-xs uppercase tracking-[0.2em] font-medium border border-[#BA9964]/40 transition-all flex items-center gap-2 cursor-pointer" onclick="openShowreelModal()" type="button">
+<i class="w-4 h-4 text-[#8C1D28] group-hover:text-white" data-lucide="film"></i>
+<span>Architectural Reel</span>
+</button>
+</div>
+</div>
+
+<div class="hidden lg:flex flex-col items-end gap-4 w-[390px] shrink-0 pb-2" id="hero-floating-cards">
+
+<button class="glass-sanctuary w-full p-5 rounded-2xl cursor-pointer group hover:border-[#8C1D28] shadow-[0_20px_50px_rgba(26,23,21,0.08)] transition-all duration-500 text-left" onclick="smoothScrollTo('wow-studio')" type="button">
+<div class="flex items-center justify-between mb-1.5">
+<span class="text-[10px] uppercase tracking-[0.26em] text-[#696259] font-semibold">SELECTION SANCTUARY</span>
+<i class="w-4 h-4 text-[#8C1D28]" data-lucide="map-pin"></i>
+</div>
+<p class="font-cinzel text-xl tracking-[0.08em] text-[#1A1715] font-semibold group-hover:text-[#8C1D28] transition-colors">
+              WOW STUDIO — EPPING VIC
+            </p>
+<p class="text-xs text-[#696259] mt-0.5">9/28 Longford Road • Plan your conversation</p>
+</button>
+
+<div class="grid grid-cols-2 gap-4 w-full">
+<button class="glass-sanctuary p-5 rounded-2xl cursor-pointer group hover:border-[#8C1D28] shadow-[0_20px_50px_rgba(26,23,21,0.08)] transition-all duration-500 text-left" onclick="openCurrentFacadeModal()" type="button">
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#696259] font-semibold mb-1">YOUR FIRST IMPRESSION</span>
+<span class="font-cinzel text-2xl font-bold tracking-[0.04em] text-[#8C1D28] block" id="hero-card-price">Architecture</span>
+<span class="text-[10px] text-[#696259] uppercase tracking-widest font-mono">CONCEPT INSPIRATION</span>
+</button>
+<button class="glass-sanctuary p-5 rounded-2xl cursor-pointer group hover:border-[#8C1D28] shadow-[0_20px_50px_rgba(26,23,21,0.08)] transition-all duration-500 text-left" onclick="openCurrentFacadeModal()" type="button">
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#696259] font-semibold mb-1">THE FINER DETAILS</span>
+<span class="font-cinzel text-2xl font-bold tracking-[0.04em] text-[#1A1715] group-hover:text-[#8C1D28] transition-colors block" id="hero-card-area">Materiality</span>
+<span class="text-[10px] text-[#696259] uppercase tracking-widest font-mono" id="hero-card-lot">YOUR OWN PERSPECTIVE</span>
+</button>
+</div>
+
+<div class="glass-sanctuary w-full p-4 rounded-2xl flex items-center justify-between text-xs text-[#696259]"><span>LIGHT. TEXTURE. A SENSE OF BELONGING.</span><span class="text-[#8C1D28]">WOLCO HOMES</span></div>
+</div>
+</div>
+</section>
+
+<section class="relative py-28 bg-[#FBF9F5] border-b border-[#1A1715]/10 bg-architectural-lines" id="interactive-cad">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between mb-14 gap-8">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.32em] text-[#8C1D28] font-semibold">
+                AN INTERACTIVE STUDY IN LIVING
+              </span>
+</div>
+<p class="font-serif-editorial text-4xl sm:text-5xl italic text-[#696259] leading-none mb-1">
+              Explore Spaces Before You Build
+            </p>
+<h2 class="font-cinzel text-4xl sm:text-5xl md:text-6xl tracking-[0.06em] uppercase text-[#1A1715] font-semibold">
+              EXPLORE HOW SPACES CONNECT
+            </h2>
+</div>
+<p class="text-sm text-[#696259] max-w-md leading-relaxed">Explore a room, change the level or mirror the arrangement. This illustrative diagram has no scale or approved dimensions; it is a starting point for your own ideas.</p>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+<div class="lg:col-span-8 bg-[#F3ECE2] rounded-3xl p-6 sm:p-8 border border-[#1A1715]/15 shadow-sm relative overflow-hidden">
+
+<div class="flex flex-wrap items-center justify-between gap-4 mb-6" id="cad-controls">
+<div class="flex items-center gap-2">
+<span class="text-[10px] uppercase tracking-widest text-[#696259] font-semibold mr-2">LEVEL:</span>
+<button class="px-4 py-1.5 rounded-full text-xs uppercase tracking-wider font-semibold cursor-pointer bg-[#1A1715] text-[#FBF9F5] transition-all" id="cad-floor-ground" onclick="setCadFloor('ground')" type="button">Ground Floor</button>
+<button class="px-4 py-1.5 rounded-full text-xs uppercase tracking-wider font-semibold cursor-pointer bg-[#FBF9F5] text-[#696259] border border-[#1A1715]/10 hover:text-[#1A1715] transition-all" id="cad-floor-first" onclick="setCadFloor('first')" type="button">First Floor</button>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-3.5 py-1.5 rounded-full text-xs font-mono uppercase tracking-wider border border-[#1A1715]/15 bg-[#FBF9F5] text-[#1A1715] hover:border-[#8C1D28] flex items-center gap-2 transition-all cursor-pointer" id="cad-mirror-btn" onclick="toggleCadMirror()" type="button">
+<i class="w-3.5 h-3.5 text-[#8C1D28]" data-lucide="flip-horizontal"></i>
+<span>Mirror Layout</span>
+</button>
+</div>
+</div>
+
+<div class="relative rounded-2xl bg-[#FBF9F5] border border-[#1A1715]/15 flex items-center justify-center p-6 shadow-inner overflow-hidden" id="cad-frame"><div class="cad-stage-canvas">
+<svg aria-label="Illustrative two-level spatial study, not an approved floorplan" class="w-full h-full transition-transform duration-700" id="cad-svg-canvas" role="img" viewbox="0 0 760 520">
+
+<defs>
+<pattern height="24" id="cadFineGrid" patternunits="userSpaceOnUse" width="24">
+<path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(26,23,21,0.04)" stroke-width="1"></path>
+</pattern>
+</defs>
+<rect fill="url(#cadFineGrid)" height="520" width="760"></rect>
+
+<rect fill="#F3ECE2" height="440" rx="4" stroke="#1A1715" stroke-width="3" width="640" x="60" y="40"></rect>
+
+<g id="svg-ground-group">
+
+<rect fill="#E8E0D2" height="180" stroke="#1A1715" stroke-width="2" width="240" x="60" y="300"></rect>
+<text fill="#696259" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="1" text-anchor="middle" x="180" y="395">ENTRY &amp; ARRIVAL</text>
+
+<rect fill="#FBF9F5" height="180" stroke="#1A1715" stroke-width="2" width="180" x="300" y="300"></rect>
+<text fill="#1A1715" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" text-anchor="middle" x="390" y="395">QUIET RETREAT</text>
+
+<rect fill="#FBF9F5" height="260" stroke="#1A1715" stroke-width="2" width="360" x="340" y="40"></rect>
+<text fill="#1A1715" font-family="'Cinzel', serif" font-size="14" font-weight="700" text-anchor="middle" x="520" y="170">FAMILY LIVING &amp; DINING</text>
+<text fill="#8C1D28" font-family="monospace" font-size="11" text-anchor="middle" x="520" y="195">LIGHT FROM ABOVE</text>
+
+<rect fill="rgba(140,29,40,0.08)" height="160" stroke="#8C1D28" stroke-dasharray="4,2" stroke-width="2" width="280" x="60" y="140"></rect>
+<rect fill="#FFFFFF" height="50" rx="2" stroke="#8C1D28" stroke-width="1.5" width="160" x="120" y="190"></rect>
+<text fill="#8C1D28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="200" y="170">KITCHEN &amp; DAILY RITUALS</text>
+
+<rect fill="#E8E0D2" height="100" stroke="#BA9964" stroke-dasharray="6,4" stroke-width="2" width="280" x="60" y="40"></rect>
+<text fill="#696259" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" text-anchor="middle" x="200" y="95">COVERED ALFRESCO PAVILION</text>
+
+<line stroke="#8E877D" stroke-width="1" x1="60" x2="700" y1="20" y2="20"></line>
+<text fill="#696259" font-family="monospace" font-size="10" text-anchor="middle" x="380" y="15">ILLUSTRATIVE SPATIAL STUDY</text>
+</g>
+
+<g class="hidden" id="svg-first-group">
+
+<rect fill="rgba(140,29,40,0.08)" height="260" stroke="#8C1D28" stroke-width="2" width="340" x="60" y="40"></rect>
+<text fill="#1A1715" font-family="'Cinzel', serif" font-size="14" font-weight="700" text-anchor="middle" x="230" y="160">PRIVATE RETREAT</text>
+<text fill="#8C1D28" font-family="monospace" font-size="11" text-anchor="middle" x="230" y="185">A QUIETER PLACE</text>
+
+<rect fill="#FBF9F5" height="260" stroke="#1A1715" stroke-width="2" width="300" x="400" y="40"></rect>
+<text fill="#1A1715" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" text-anchor="middle" x="550" y="170">UPSTAIRS LEISURE RETREAT</text>
+
+<rect fill="#F3ECE2" height="180" stroke="#1A1715" stroke-width="2" width="210" x="60" y="300"></rect>
+<text fill="#1A1715" font-size="11" text-anchor="middle" x="165" y="395">BEDROOM 2 + ENSUITE</text>
+<rect fill="#F3ECE2" height="180" stroke="#1A1715" stroke-width="2" width="210" x="270" y="300"></rect>
+<text fill="#1A1715" font-size="11" text-anchor="middle" x="375" y="395">BEDROOM 3 + WIR</text>
+<rect fill="#F3ECE2" height="180" stroke="#1A1715" stroke-width="2" width="220" x="480" y="300"></rect>
+<text fill="#1A1715" font-size="11" text-anchor="middle" x="590" y="395">BEDROOM 4 + BATH</text>
+</g>
+</svg>
+
+<button aria-label="1 — Explore the private retreat" aria-pressed="false" class="absolute top-[28%] left-[24%] transform -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer group cad-hotspot" id="hotspot-master" onclick="selectHotspot('master')" type="button">
+<span class="w-8 h-8 rounded-full border border-[#8C1D28] bg-[#8C1D28] text-white flex items-center justify-center shadow-lg group-hover:scale-125 transition-transform text-xs font-bold">1</span>
+<span class="pointer-events-none absolute w-8 h-8 rounded-full border-2 border-[#8C1D28] animate-hotspot-ring -top-0 -left-0"></span>
+</button>
+<button aria-label="2 — Explore the kitchen" aria-pressed="false" class="absolute top-[42%] left-[30%] transform -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer group cad-hotspot" id="hotspot-kitchen" onclick="selectHotspot('kitchen')" type="button">
+<span class="w-8 h-8 rounded-full border border-[#8C1D28] bg-[#8C1D28] text-white flex items-center justify-center shadow-lg group-hover:scale-125 transition-transform text-xs font-bold">2</span>
+<span class="pointer-events-none absolute w-8 h-8 rounded-full border-2 border-[#8C1D28] animate-hotspot-ring -top-0 -left-0"></span>
+</button>
+<button aria-label="3 — Explore the living space" aria-pressed="false" class="absolute top-[34%] left-[68%] transform -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer group cad-hotspot" id="hotspot-living" onclick="selectHotspot('living')" type="button">
+<span class="w-8 h-8 rounded-full border border-[#8C1D28] bg-[#8C1D28] text-white flex items-center justify-center shadow-lg group-hover:scale-125 transition-transform text-xs font-bold">3</span>
+<span class="pointer-events-none absolute w-8 h-8 rounded-full border-2 border-[#8C1D28] animate-hotspot-ring -top-0 -left-0"></span>
+</button>
+<button aria-label="4 — Explore the garden connection" aria-pressed="false" class="absolute top-[18%] left-[28%] transform -translate-x-1/2 -translate-y-1/2 z-20 cursor-pointer group cad-hotspot" id="hotspot-alfresco" onclick="selectHotspot('alfresco')" type="button">
+<span class="w-8 h-8 rounded-full border border-[#8C1D28] bg-[#8C1D28] text-white flex items-center justify-center shadow-lg group-hover:scale-125 transition-transform text-xs font-bold">4</span>
+<span class="pointer-events-none absolute w-8 h-8 rounded-full border-2 border-[#8C1D28] animate-hotspot-ring -top-0 -left-0"></span>
+</button>
+</div></div><div aria-label="Explore a space" class="cad-legend" role="group"><button data-hotspot="master" onclick="selectHotspot('master')" type="button">1 · Private retreat</button><button data-hotspot="kitchen" onclick="selectHotspot('kitchen')" type="button">2 · Kitchen</button><button data-hotspot="living" onclick="selectHotspot('living')" type="button">3 · Living</button><button data-hotspot="alfresco" onclick="selectHotspot('alfresco')" type="button">4 · Garden</button></div>
+
+<div class="flex flex-wrap items-center justify-between gap-4 mt-4 text-xs text-[#696259]"><span>CONCEPT DIAGRAM / NOT TO SCALE</span><span class="text-[#8C1D28]">Select a numbered space to explore.</span></div>
+</div>
+
+<div class="lg:col-span-4 bg-[#F3ECE2] rounded-3xl p-6 sm:p-8 border border-[#1A1715]/15 shadow-sm space-y-6">
+<div class="relative h-56 rounded-2xl overflow-hidden border border-[#1A1715]/15 shadow-sm">
+<img alt="Generated architectural visualisation: kitchen" class="w-full h-full object-cover transition-all duration-700" height="900" id="hotspot-img" loading="lazy" src="/media/generated-kitchen.webp" width="1600"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1A1715]/80 via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#8C1D28] text-[10px] uppercase tracking-widest text-white font-semibold" id="hotspot-badge">HOTSPOT 02 // CULINARY HUB</span>
+</div>
+<div>
+<h3 class="font-cinzel text-2xl font-bold text-[#1A1715]" id="hotspot-title">The Kitchen, at the Centre</h3>
+<p class="text-xs text-[#554E46] leading-relaxed mt-2" id="hotspot-desc">A place to prepare, gather and talk. Consider how the kitchen connects to the rest of your day.</p>
+</div>
+<div class="space-y-2 pt-2 border-t border-[#1A1715]/10">
+<span class="text-[10px] uppercase tracking-widest text-[#8C1D28] font-semibold block">IDEAS FOR YOUR BRIEF:</span>
+<ul class="space-y-1.5 text-xs text-[#1A1715]" id="hotspot-specs"><li>Space for everyday conversation</li><li>Storage shaped around your routines</li><li>Natural light across working surfaces</li></ul>
+</div>
+<button class="w-full py-3.5 rounded-full bg-[#1A1715] hover:bg-[#8C1D28] text-[#FBF9F5] text-xs uppercase tracking-[0.2em] font-semibold transition-all cursor-pointer" onclick="bookConsultation('Hotspot Inclusions Review @ WOW Studio')" type="button">
+              Discuss this space ↗
+            </button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="relative py-28 md:py-36 bg-[#FBF9F5] border-b border-[#1A1715]/10" id="designs">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between mb-14 gap-8">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.32em] text-[#8C1D28] font-semibold">
+                FOUR ARCHITECTURAL STUDIES
+              </span>
+</div>
+<p class="font-serif-editorial text-4xl sm:text-5xl italic text-[#696259] leading-none mb-1">
+              Enduring Proportions &amp; Quiet Luxury
+            </p>
+<h2 class="font-cinzel text-4xl sm:text-5xl md:text-6xl tracking-[0.06em] uppercase text-[#1A1715] font-semibold">
+              A COLLECTION OF POSSIBILITIES
+            </h2>
+</div>
+<p class="text-sm text-[#696259] max-w-md leading-relaxed">Generated architectural and interior studies. Collect a direction to discuss with WOLCO; these concepts are not catalogue plans or specifications.</p>
+</div>
+
+<div class="bg-[#F3ECE2] rounded-2xl p-5 mb-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-5 border border-[#1A1715]/10 shadow-sm">
+<div class="flex flex-wrap items-center gap-2" id="category-filters"></div>
+<div class="flex flex-wrap items-center gap-2" id="lot-filters"></div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="designs-grid"></div>
+</div>
+</section>
+
+<section class="relative py-28 md:py-36 bg-[#F3ECE2] border-b border-[#1A1715]/10" id="wow-studio">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-6">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.3em] text-[#8C1D28] font-semibold">
+                SENSORY STUDIO APPOINTMENTS • 9/28 LONGFORD RD
+              </span>
+</div>
+<p class="font-serif-editorial italic text-3xl sm:text-4xl text-[#696259] leading-none">
+              Tactile Stone, Fluted Timber &amp; Bronze
+            </p>
+<h2 class="font-cinzel text-4xl sm:text-5xl tracking-[0.06em] text-[#1A1715] font-semibold leading-none">
+              CURATE YOUR INTERIOR SCHEME
+            </h2>
+<p class="text-sm text-[#554E46] leading-relaxed">
+              Explore a considered material direction before <strong class="text-[#1A1715]">your WOW Studio conversation</strong>. Consider the relationship between stone, timber, metal and light. These mood palettes are inspiration; final finishes and availability are confirmed individually.
+            </p>
+<div class="space-y-3 pt-2" id="palette-buttons"></div>
+</div>
+<div class="lg:col-span-7">
+<div class="relative h-[480px] sm:h-[540px] rounded-3xl overflow-hidden border border-[#1A1715]/15 shadow-[0_25px_70px_rgba(26,23,21,0.12)]">
+<img alt="Generated architectural visualisation: kitchen" class="w-full h-full object-cover transition-all duration-700" height="900" id="palette-preview-img" loading="lazy" src="/media/generated-kitchen.webp" width="1600"/>
+<div class="absolute inset-0 bg-gradient-to-t from-[#1A1715]/85 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 glass-sanctuary rounded-2xl p-5 grid grid-cols-2 sm:grid-cols-4 gap-4 shadow-lg border border-white/50">
+<div>
+<span class="text-[9px] uppercase tracking-widest text-[#8C1D28] font-semibold block">BENCHTOP</span>
+<span class="text-xs text-[#1A1715] font-semibold block mt-0.5" id="pal-benchtop">Pale stone tone</span>
+</div>
+<div>
+<span class="text-[9px] uppercase tracking-widest text-[#8C1D28] font-semibold block">JOINERY</span>
+<span class="text-xs text-[#1A1715] font-semibold block mt-0.5" id="pal-joinery">Alabaster and natural oak</span>
+</div>
+<div>
+<span class="text-[9px] uppercase tracking-widest text-[#8C1D28] font-semibold block">TAPWARE</span>
+<span class="text-xs text-[#1A1715] font-semibold block mt-0.5" id="pal-tapware">Warm bronze accent</span>
+</div>
+<div>
+<span class="text-[9px] uppercase tracking-widest text-[#8C1D28] font-semibold block">FLOORING</span>
+<span class="text-xs text-[#1A1715] font-semibold block mt-0.5" id="pal-flooring">Light timber tone</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="relative py-28 bg-[#FBF9F5] border-b border-[#1A1715]/10" id="calculator">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.35em] text-[#8C1D28] font-semibold">
+              YOUR IDEAS, GIVEN A STARTING POINT
+            </span>
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+</div>
+<h2 class="font-cinzel text-4xl sm:text-5xl md:text-6xl tracking-[0.06em] uppercase text-[#1A1715] font-semibold leading-none mb-3">
+            YOUR PERSONAL HOME BRIEF
+          </h2>
+<p class="text-sm sm:text-base text-[#696259]">
+            Explore an approximate scale and the feeling you are drawn to. Add them to your brief. WOLCO confirms plans, feasibility, pricing and timing individually.
+          </p>
+</div>
+<div class="max-w-4xl mx-auto bg-[#F3ECE2] rounded-3xl p-8 sm:p-12 border border-[#1A1715]/15 shadow-sm space-y-8">
+
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs uppercase tracking-[0.24em] text-[#1A1715] font-bold">1. Select Home Scale:</span>
+<span class="font-cinzel text-3xl font-bold text-[#8C1D28]" id="calc-squares-display">24 SQUARES (223 m²)</span>
+</div>
+<input aria-label="Preferred approximate home scale in squares" class="w-full h-2 bg-[#E8E0D2] rounded-lg appearance-none cursor-pointer accent-[#8C1D28]" id="calc-slider" max="52" min="16" oninput="updateCalculator()" step="4" type="range" value="24"/>
+<div class="flex justify-between text-[10px] font-mono text-[#696259] mt-2">
+<span>16 squares</span>
+<span>24 squares</span>
+<span>42 squares</span>
+<span>52 squares</span>
+</div>
+</div>
+
+<div>
+<span class="block text-xs uppercase tracking-[0.24em] text-[#1A1715] font-bold mb-3">2. Choose Your Design Direction:</span>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4" id="calc-tier-buttons">
+<button class="p-4 rounded-2xl border text-left cursor-pointer transition-all bg-[#1A1715] text-[#FBF9F5] border-[#1A1715]" id="tier-btn-signature" onclick="setCalcTier('signature')" type="button">
+<span class="block font-cinzel text-lg font-bold">Quiet &amp; Natural</span>
+<span class="text-[11px] opacity-80 mt-1 block">Pale stone. Oak. Soft linen.</span>
+</button>
+<button class="p-4 rounded-2xl border text-left cursor-pointer transition-all bg-[#FBF9F5] text-[#1A1715] border-[#1A1715]/15 hover:border-[#8C1D28]" id="tier-btn-architectural" onclick="setCalcTier('architectural')" type="button">
+<span class="block font-cinzel text-lg font-bold">Light &amp; Open</span>
+<span class="text-[11px] text-[#696259] mt-1 block">Daylight. Garden outlooks. Shared spaces.</span>
+</button>
+<button class="p-4 rounded-2xl border text-left cursor-pointer transition-all bg-[#FBF9F5] text-[#1A1715] border-[#1A1715]/15 hover:border-[#8C1D28]" id="tier-btn-bespoke" onclick="setCalcTier('bespoke')" type="button">
+<span class="block font-cinzel text-lg font-bold">Rich &amp; Tactile</span>
+<span class="text-[11px] text-[#696259] mt-1 block">Deeper timber. Bronze. Warm texture.</span>
+</button>
+</div>
+</div>
+
+<div class="p-6 rounded-2xl bg-[#FBF9F5] border border-[#1A1715]/10 grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
+<div>
+<span class="text-[10px] uppercase tracking-widest text-[#696259] block">YOUR PREFERRED DIRECTION</span>
+<span class="font-cinzel text-3xl font-bold text-[#8C1D28]" id="calc-price-output">Quiet &amp; Natural</span>
+<span class="text-[10px] text-[#696259] font-mono block mt-0.5">Inspiration for your conversation</span>
+</div>
+<div>
+<span class="text-[10px] uppercase tracking-widest text-[#696259] block">APPROXIMATE INTERNAL SCALE</span>
+<span class="font-cinzel text-2xl font-bold text-[#1A1715]" id="calc-time-output">223 m²</span>
+<span class="text-[10px] text-[#696259] font-mono block mt-0.5">One square = 9.290304 m²</span>
+</div>
+<div>
+<button class="w-full py-4 rounded-full bg-[#8C1D28] hover:bg-[#1A1715] text-[#FBF9F5] text-xs uppercase tracking-[0.2em] font-semibold transition-all shadow-md cursor-pointer" onclick="bookCalculatedProposal()" type="button">
+                Add to My Brief ↗
+              </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="relative py-28 md:py-36 bg-[#F3ECE2] border-b border-[#1A1715]/10" id="journey">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between mb-14 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.35em] text-[#8C1D28] font-semibold">
+                THE CONVERSATIONS AHEAD / WOLCO
+              </span>
+</div>
+<p class="font-serif-editorial italic text-3xl sm:text-4xl text-[#696259] leading-none mb-1">
+              Clarity &amp; Confidence From Day One
+            </p>
+<h2 class="font-cinzel text-4xl sm:text-5xl md:text-6xl tracking-[0.06em] uppercase text-[#1A1715] font-semibold leading-none">
+              12 STEPS TOWARDS YOUR HOME
+            </h2>
+</div>
+<p class="text-sm text-[#554E46] max-w-md">Explore the steps from your first ideas through plans, selections and approvals. Your own scope and arrangements are confirmed with WOLCO.</p>
+</div>
+
+<div class="bg-[#FBF9F5] border-2 border-[#8C1D28]/30 rounded-3xl p-6 md:p-8 mb-8 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 shadow-sm" id="active-step-banner"></div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-4" id="twelve-steps-grid"></div>
+<p class="text-xs text-[#696259] mt-6 italic font-medium">
+          Your site, title, finance and required approvals shape the path ahead. Discuss the requirements that apply to you.
+        </p>
+</div>
+</section>
+
+<section class="relative w-full h-[88vh] min-h-[580px] bg-[#FBF9F5] flex items-center justify-center overflow-hidden py-8" id="showreel">
+<div class="relative w-full h-full overflow-hidden border border-[#1A1715]/15 shadow-[0_30px_90px_rgba(26,23,21,0.18)] flex items-center justify-center" id="video-scrub-wrapper">
+<img alt="Generated architectural visualisation: living" class="absolute inset-0 w-full h-full object-cover object-center scale-105" height="900" loading="lazy" src="/media/generated-living.webp" width="1600"/>
+<div class="absolute inset-0 bg-[#1A1715]/45 backdrop-blur-[2px]"></div>
+<div class="relative z-20 text-center px-6 max-w-3xl mx-auto flex flex-col items-center">
+<span class="glass-sanctuary px-5 py-1.5 rounded-full text-[10px] uppercase tracking-[0.32em] text-[#1A1715] font-semibold mb-8 shadow-sm">
+            A FOUR-CHAPTER ARCHITECTURAL FILM
+          </span>
+<div class="relative flex items-center justify-center mb-8">
+<span class="pointer-events-none absolute w-28 h-28 sm:w-32 sm:h-32 rounded-full border-2 border-[#FBF9F5] animate-hotspot-ring"></span>
+<button aria-label="Play Wolco Homes Showreel" class="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-[#8C1D28] hover:bg-[#1A1715] text-[#FBF9F5] flex items-center justify-center shadow-[0_20px_60px_rgba(140,29,40,0.55)] border-2 border-[#FBF9F5]/70 cursor-pointer transition-colors" id="pulsing-play-btn" onclick="openShowreelModal()" type="button">
+<i class="w-10 h-10 fill-white text-white ml-1.5" data-lucide="play"></i>
+</button>
+</div>
+<p class="font-serif-editorial italic text-3xl sm:text-4xl text-[#F3ECE2] mb-1">
+             Light, Material &amp; A Sense of Belonging
+          </p>
+<h2 class="font-cinzel text-4xl sm:text-6xl tracking-[0.06em] uppercase text-white font-semibold leading-none mb-3">
+            THE WORLD OF WOLCO
+          </h2>
+<p class="text-sm text-[#F3ECE2]/90 max-w-lg leading-relaxed">
+            Arrival. Touch. Gather. Dwell. Follow a continuous visual journey through architecture, materials and the spaces of everyday life.
+          </p>
+</div>
+</div>
+</section>
+
+<section class="relative py-28 md:py-36 bg-[#FBF9F5] border-t border-[#1A1715]/10" id="contact">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+<div class="lg:col-span-6 space-y-8">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-[#8C1D28]"></span>
+<span class="text-xs uppercase tracking-[0.35em] text-[#8C1D28] font-semibold">
+                  EPPING WOW SELECTION STUDIO • SCHEDULE YOUR VISIT
+                </span>
+</div>
+<p class="font-serif-editorial italic text-3xl sm:text-4xl text-[#696259] mb-1">
+                Personalised Architectural Consultations
+              </p>
+<h2 class="font-cinzel text-4xl sm:text-5xl md:text-6xl tracking-[0.06em] uppercase text-[#1A1715] font-semibold mb-4 leading-none">
+                CONNECT WITH OUR TEAM
+              </h2>
+<p class="text-sm sm:text-base text-[#554E46] leading-relaxed">
+                Begin your building journey with <strong class="text-[#1A1715]">Step 01: Request Your Detailed Proposal</strong> with your New Home Consultant at our Epping Selection Sanctuary.
+              </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="bg-[#F3ECE2] p-5 rounded-2xl border border-[#1A1715]/10">
+<i class="w-4 h-4 text-[#8C1D28] mb-3" data-lucide="map-pin"></i>
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#696259] font-semibold mb-1">SELECTION SANCTUARY</span>
+<p class="text-xs text-[#1A1715] font-semibold">9/28 Longford Rd, Epping, VIC 3076</p>
+</div>
+<a class="bg-[#F3ECE2] p-5 rounded-2xl border border-[#1A1715]/10 hover:border-[#8C1D28] transition-colors" href="tel:1300163666">
+<i class="w-4 h-4 text-[#8C1D28] mb-3" data-lucide="phone"></i>
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#696259] font-semibold mb-1">DIRECT PHONE</span>
+<p class="text-sm text-[#1A1715] font-mono font-bold">1300 16 36 66</p>
+<span class="text-[10px] text-[#8C1D28] font-semibold block mt-1">Call to plan a conversation</span>
+</a>
+<a class="bg-[#F3ECE2] p-5 rounded-2xl border border-[#1A1715]/10 hover:border-[#8C1D28] transition-colors" href="mailto:wolcohomes@gmail.com">
+<i class="w-4 h-4 text-[#8C1D28] mb-3" data-lucide="mail"></i>
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#696259] font-semibold mb-1">EMAIL DESK</span>
+<p class="text-xs text-[#1A1715] font-mono font-semibold truncate">wolcohomes@gmail.com</p>
+<span class="text-[10px] text-[#8C1D28] font-semibold block mt-1">wolcohomes.com.au</span>
+</a>
+</div>
+
+<div class="group relative h-80 rounded-3xl overflow-hidden border border-[#1A1715]/15 hover:border-[#8C1D28] transition-colors duration-500 bg-[#F3ECE2] shadow-sm"><div class="studio-location h-full flex flex-col justify-center p-8"><span class="text-xs uppercase tracking-[0.24em] text-[#8C1D28]">WOW STUDIO / EPPING</span><p class="font-cinzel text-2xl text-[#1A1715] mt-5">9/28 Longford Road<br/>Epping VIC 3076</p><a class="mt-6 text-sm underline underline-offset-4 text-[#8C1D28]" href="https://www.google.com/maps/search/?api=1&amp;query=9%2F28%20Longford%20Road%20Epping%20VIC%203076" rel="noopener noreferrer" target="_blank">Open in Google Maps ↗</a></div></div>
+</div>
+
+<div class="lg:col-span-6">
+<div class="bg-[#F3ECE2] rounded-3xl p-8 sm:p-10 md:p-12 border border-[#1A1715]/12 shadow-[0_25px_70px_rgba(26,23,21,0.08)] relative overflow-hidden">
+
+<form class="space-y-6" id="contact-form" onsubmit="submitContactForm(event)">
+<div class="flex items-center justify-between border-b border-[#1A1715]/12 pb-5">
+<div>
+<span class="text-[10px] uppercase tracking-[0.28em] text-[#8C1D28] font-semibold block">
+                      YOUR PERSONAL HOME BRIEF
+                    </span>
+<h3 class="font-cinzel text-2xl font-bold tracking-[0.06em] text-[#1A1715] mt-1">
+                      BEGIN WITH YOUR IDEAS
+                    </h3>
+</div>
+<i class="w-6 h-6 text-[#8C1D28]" data-lucide="shield-check"></i>
+</div>
+<div class="relative">
+<input autocomplete="name" class="peer w-full bg-[#FBF9F5] border border-[#1A1715]/15 rounded-xl px-4 pt-6 pb-2.5 text-sm text-[#1A1715] focus:outline-none focus:border-[#8C1D28] transition-colors" id="input-name" maxlength="254" name="name" placeholder=" " required="" type="text"/>
+<label class="absolute left-4 top-2 text-[10px] uppercase tracking-[0.2em] text-[#696259] font-semibold transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-xs peer-focus:top-2 peer-focus:text-[10px] peer-focus:text-[#8C1D28]" for="input-name">
+                    Full Name *
+                  </label>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="relative">
+<input autocomplete="email" class="peer w-full bg-[#FBF9F5] border border-[#1A1715]/15 rounded-xl px-4 pt-6 pb-2.5 text-sm text-[#1A1715] focus:outline-none focus:border-[#8C1D28] transition-colors" id="input-email" maxlength="254" name="email" placeholder=" " required="" type="email"/>
+<label class="absolute left-4 top-2 text-[10px] uppercase tracking-[0.2em] text-[#696259] font-semibold transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-xs peer-focus:top-2 peer-focus:text-[10px] peer-focus:text-[#8C1D28]" for="input-email">
+                      Email Address *
+                    </label>
+</div>
+<div class="relative">
+<input autocomplete="tel" class="peer w-full bg-[#FBF9F5] border border-[#1A1715]/15 rounded-xl px-4 pt-6 pb-2.5 text-sm text-[#1A1715] focus:outline-none focus:border-[#8C1D28] transition-colors" id="input-phone" maxlength="254" name="phone" placeholder=" " type="tel"/>
+<label class="absolute left-4 top-2 text-[10px] uppercase tracking-[0.2em] text-[#696259] font-semibold transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-xs peer-focus:top-2 peer-focus:text-[10px] peer-focus:text-[#8C1D28]" for="input-phone">
+                      Phone Number (optional)
+                    </label>
+</div>
+</div>
+<div>
+<span class="block text-[10px] uppercase tracking-[0.24em] text-[#8C1D28] mb-2 font-semibold">
+                    SELECT WOLCO BUILD STREAM
+                  </span>
+<select aria-label="What are you considering?" autocomplete="off" class="w-full bg-[#FBF9F5] border border-[#1A1715]/15 focus:border-[#8C1D28] rounded-xl px-4 py-3 text-xs text-[#1A1715] font-medium focus:outline-none" id="input-pathway" maxlength="254" name="pathway"><option>Exploring possibilities</option><option>Custom home</option><option>Knockdown rebuild</option><option>House &amp; land</option><option>WOW Studio and materials</option></select>
+</div>
+<div class="relative">
+<textarea autocomplete="off" class="peer w-full bg-[#FBF9F5] border border-[#1A1715]/15 rounded-xl px-4 pt-6 pb-2.5 text-sm text-[#1A1715] focus:outline-none focus:border-[#8C1D28] transition-colors resize-none" id="input-message" maxlength="3000" name="message" placeholder=" " rows="3"></textarea>
+<label class="absolute left-4 top-2 text-[10px] uppercase tracking-[0.2em] text-[#696259] font-semibold transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-xs peer-focus:top-2 peer-focus:text-[10px] peer-focus:text-[#8C1D28]" for="input-message">
+                    Preferred Design, Land Suburb or WOW Studio Date
+                  </label>
+</div>
+<button class="w-full py-4 rounded-full bg-[#1A1715] hover:bg-[#8C1D28] text-[#FBF9F5] font-semibold text-xs uppercase tracking-[0.24em] transition-all duration-500 shadow-md flex items-center justify-center gap-3 cursor-pointer" type="submit">
+<span>Review My Brief</span>
+<i class="w-4 h-4" data-lucide="arrow-up-right"></i>
+</button>
+<p class="text-xs text-[#554E46] leading-relaxed">Review and download your brief, or prepare an email in your own email app. This preview does not send automatically.</p></form>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="bg-[#1A1715] border-t border-[#BA9964]/30 text-[#FBF9F5]">
+<div class="max-w-[1520px] mx-auto px-6 md:px-12 py-20">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-16 border-b border-white/10">
+<div class="space-y-5">
+<div class="flex items-center gap-3.5"><a aria-label="WOLCO Homes — return to top" href="#home"><img alt="WOLCO Homes" class="sanctuary-logo footer-logo" height="286" src="/brand/wolco-original-logo.webp" width="606"/></a></div>
+<p class="text-xs text-[#E8E0D2]/80 leading-relaxed font-light">
+            Homes crafted around your life. Architecture, material and the everyday — brought into one considered conversation.
+          </p>
+<p class="text-[11px] uppercase tracking-[0.24em] text-[#BA9964] font-semibold">
+            WORLD OF WOLCO • WOW SELECTION STUDIO
+          </p>
+</div>
+<div>
+<h2 class="font-cinzel text-xl tracking-[0.16em] text-[#FBF9F5] uppercase mb-5 font-semibold">HOME DESIGNS</h2>
+<ul class="space-y-3 text-xs text-[#E8E0D2]/80" id="footer-designs-list"></ul>
+</div>
+<div>
+<h2 class="font-cinzel text-xl tracking-[0.16em] text-[#FBF9F5] uppercase mb-5 font-semibold">BUILDING WITH US</h2>
+<ul class="space-y-3 text-xs text-[#E8E0D2]/80">
+<li><button class="hover:text-white transition-colors cursor-pointer" onclick="smoothScrollTo('interactive-cad')" type="button">Interactive Spaces for Living</button></li>
+<li><button class="hover:text-white transition-colors cursor-pointer" onclick="smoothScrollTo('wow-studio')" type="button">WOW Selection Studio &amp; Finishes</button></li>
+<li><button class="hover:text-white transition-colors cursor-pointer" onclick="smoothScrollTo('calculator')" type="button">Your Personal Home Brief</button></li>
+<li><button class="hover:text-white transition-colors cursor-pointer" onclick="smoothScrollTo('journey')" type="button">Official 12 Steps Roadmap</button></li>
+<li><button class="hover:text-white transition-colors cursor-pointer" onclick="smoothScrollTo('contact')" type="button">Discuss Your Next Step</button></li>
+</ul>
+</div>
+<div>
+<h2 class="font-cinzel text-xl tracking-[0.16em] text-[#FBF9F5] uppercase mb-5 font-semibold">WOW STUDIO EPPING</h2>
+<ul class="space-y-3 text-xs text-[#E8E0D2]/80">
+<li class="text-white font-medium">9/28 Longford Road, Epping, VIC 3076</li>
+<li class="font-mono text-[#BA9964] text-sm font-semibold"><a href="tel:1300163666">1300 16 36 66</a></li>
+<li class="font-mono text-white"><a href="mailto:wolcohomes@gmail.com">wolcohomes@gmail.com</a></li>
+<li>MELBOURNE / VICTORIA</li>
+<li class="text-[11px] text-[#E8E0D2]/60 pt-1">WOLCO / SANCTUARY DESIGN PREVIEW</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#E8E0D2]/70 uppercase tracking-[0.2em]">
+<p>© 2026 WOLCO Homes. Design preview.</p>
+<div class="flex items-center gap-6">
+<button class="hover:text-white cursor-pointer transition-colors" onclick="openLegalModal('privacy')" type="button">PRIVACY POLICY</button>
+<button class="hover:text-white cursor-pointer transition-colors" onclick="openLegalModal('terms')" type="button">TERMS &amp; CONDITIONS</button>
+<span class="text-[#BA9964] font-semibold">HOMES CRAFTED AROUND YOUR LIFE</span>
+</div>
+</div>
+</div>
+</footer>
+
+<dialog aria-label="Architectural study" class="fixed inset-0 z-50 bg-[#1A1715]/80 backdrop-blur-xl hidden items-center justify-center p-4 md:p-8 overflow-y-auto sanctuary-dialog" id="floorplan-modal" onclick="if(event.target===this) closeLayer(this.id)">
+<div class="relative w-full max-w-6xl rounded-3xl bg-[#FBF9F5] border border-[#1A1715]/20 overflow-hidden shadow-2xl my-auto" onclick="event.stopPropagation()">
+<button aria-label="Close architectural study" autofocus="" class="absolute top-5 right-5 z-30 w-10 h-10 rounded-full bg-[#F3ECE2] border border-[#1A1715]/15 flex items-center justify-center text-[#1A1715] hover:border-[#8C1D28] cursor-pointer" onclick="closeFloorplanModal()" type="button">
+<i class="w-5 h-5" data-lucide="x"></i>
+</button>
+<div class="grid grid-cols-1 lg:grid-cols-12" id="floorplan-modal-body"></div>
+</div>
+</dialog>
+
+<dialog aria-label="The architectural film" class="fixed inset-0 z-50 bg-[#1A1715]/90 backdrop-blur-2xl hidden items-center justify-center p-4 md:p-8 overflow-y-auto sanctuary-dialog" id="showreel-modal" onclick="if(event.target===this) closeLayer(this.id)"><div class="film-surface relative w-full max-w-6xl rounded-3xl bg-[#FBF9F5] border border-[#BA9964]/50 overflow-hidden shadow-2xl my-auto" onclick="event.stopPropagation()"><div class="flex items-center justify-between gap-6 px-6 py-5 bg-[#F3ECE2]"><h2 class="font-cinzel text-xl text-[#1A1715]">THE ARCHITECTURAL FILM</h2><button aria-label="Close architectural film" autofocus="" class="dialog-close" onclick="closeShowreelModal()" type="button">×</button></div><video aria-label="Silent generated film through arrival, materials, kitchen and living" controls="" id="showreel-video" playsinline="" poster="/media/generated-architectural-journey-poster.webp" preload="none"></video><div class="p-6"><p class="font-serif-editorial italic text-2xl text-[#8C1D28]">A quieter kind of statement.</p><p class="text-sm text-[#554E46] mt-3">Arrival → Touch → Gather → Dwell. Generated architectural visualisations. Silent film.</p></div></div></dialog>
+
+<dialog aria-label="Search design studies" class="fixed inset-0 z-50 bg-[#1A1715]/80 backdrop-blur-xl hidden items-start justify-center pt-24 px-4 sanctuary-dialog" id="search-modal" onclick="if(event.target===this) closeLayer(this.id)">
+<div class="w-full max-w-2xl rounded-3xl bg-[#FBF9F5] p-6 sm:p-8 border border-[#1A1715]/20 shadow-2xl" onclick="event.stopPropagation()">
+<div class="flex items-center gap-3 border-b border-[#1A1715]/15 pb-4 mb-6">
+<i class="w-5 h-5 text-[#8C1D28]" data-lucide="search"></i>
+<input aria-label="Search architectural studies" class="w-full bg-transparent text-sm text-[#1A1715] placeholder-[#696259] focus:outline-none" id="search-input" oninput="renderSearchResults()" placeholder="Search architecture, kitchen, living or materials" type="text"/>
+<button aria-label="Close search design studies" autofocus="" class="text-xs uppercase tracking-widest text-[#696259] hover:text-[#1A1715] font-semibold cursor-pointer" onclick="closeSearchModal()" type="button">ESC</button>
+</div>
+<div class="space-y-3 max-h-96 overflow-y-auto" id="search-results-list"></div>
+</div>
+</dialog>
+
+<dialog aria-label="About this preview" class="fixed inset-0 z-50 bg-[#1A1715]/80 backdrop-blur-xl hidden items-center justify-center p-4 sanctuary-dialog" id="legal-modal" onclick="if(event.target===this) closeLayer(this.id)">
+<div class="w-full max-w-2xl bg-[#FBF9F5] rounded-3xl p-8 border border-[#1A1715]/20 space-y-4 shadow-2xl" onclick="event.stopPropagation()">
+<div class="flex items-center justify-between border-b border-[#1A1715]/15 pb-3">
+<h3 class="font-cinzel text-2xl font-bold tracking-wider text-[#1A1715]" id="legal-modal-title"></h3>
+<button aria-label="Close about this preview" autofocus="" class="text-[#696259] hover:text-[#1A1715] cursor-pointer" onclick="closeLegalModal()" type="button">
+<i class="w-5 h-5" data-lucide="x"></i>
+</button>
+</div>
+<p class="text-xs text-[#554E46] leading-relaxed" id="legal-modal-text"></p>
+</div>
+</dialog>
+
+<dialog aria-labelledby="brief-title" class="sanctuary-dialog fixed inset-0 z-50 p-4 hidden items-center justify-center" id="brief-modal"><div class="relative w-full max-w-3xl rounded-3xl p-7 md:p-10 bg-[#FBF9F5] border border-[#BA9964]/40" onclick="event.stopPropagation()"><button aria-label="Close brief review" autofocus="" class="dialog-close float-right" onclick="closeLayer('brief-modal')" type="button">×</button><p class="text-xs uppercase tracking-[0.24em] text-[#8C1D28]">YOUR PERSONAL HOME BRIEF</p><h2 class="font-cinzel text-3xl mt-5 mb-6" id="brief-title">A Place to Begin.</h2><label class="text-sm" for="brief-preview">Your editable brief</label><textarea class="w-full rounded-xl border border-[#1A1715]/20 bg-[#F3ECE2] p-4 text-sm mt-2" id="brief-preview" rows="13"></textarea><div class="flex flex-wrap gap-5 items-center mt-6"><button class="px-6 py-3 rounded-full bg-[#8C1D28] text-white text-xs uppercase tracking-wider" onclick="downloadBrief()" type="button">Download My Brief ↗</button><a class="text-sm underline underline-offset-4" href="mailto:wolcohomes@gmail.com" id="email-brief">Open Email Draft ↗</a><button class="text-sm underline underline-offset-4" onclick="closeLayer('brief-modal')" type="button">Edit My Details</button></div><p class="text-xs text-[#554E46] mt-5">Nothing has been sent. Your email app handles delivery when you choose to send.</p></div></dialog><div aria-live="polite" class="sr-only" id="live-status" role="status"></div><script defer="True" src="/assets/gsap.min.js"></script><script defer="True" src="/assets/lucide.min.js"></script><script defer="True" src="/src/main.js"></script></body>
+</html>

@@ -1,0 +1,141 @@
+{
+  "observedAt": "2026-10-18",
+  "files": [
+    {
+      "file": "robots.txt",
+      "bytes": 28,
+      "sha256": "a8f31103361fca68bef71fc69cff844b7c23bd3d64d2b872d74690cbda656bfc"
+    },
+    {
+      "file": "_headers",
+      "bytes": 518,
+      "sha256": "a835a5bfe5c2006e5f3b793cedb77f379c920b5cbdcca2a6eab7d20e85e2a8cb"
+    },
+    {
+      "file": "_routes.json",
+      "bytes": 105,
+      "sha256": "019d057e5e1322065e4a10d442c22b69a57315a0d07a0f7c792faafa6a9b8d7b"
+    },
+    {
+      "file": "assets/fonts.css",
+      "bytes": 4079,
+      "sha256": "beddac76b41159f6cd68d5b4c19787c2bd7d33a220c48a4d8f94708dc35d2862"
+    },
+    {
+      "file": "assets/gsap.min.js",
+      "bytes": 72435,
+      "sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6"
+    },
+    {
+      "file": "assets/lucide.min.js",
+      "bytes": 357796,
+      "sha256": "3411692820cb8d47543f69496aa25fd603a358f4498046f41c508a5a3342210e"
+    },
+    {
+      "file": "assets/tailwind.css",
+      "bytes": 31842,
+      "sha256": "66968d768b2c8f45c031e0127d4ff35298ec5d2fa99bbb44a887aad15ad63b2e"
+    },
+    {
+      "file": "brand/wolco-original-logo.webp",
+      "bytes": 8926,
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
+    },
+    {
+      "file": "fonts/cormorant-garamond-latin-italic.woff2",
+      "bytes": 39304,
+      "sha256": "e6d6d1d73858aa9b66f3a3539f9dec22faab2276e61ad1d813bc04dd59c9c122"
+    },
+    {
+      "file": "fonts/cormorant-garamond-latin-normal.woff2",
+      "bytes": 37776,
+      "sha256": "5d618c462b7a5b74f442e1548880086af71764d9cc7d35c16ab45353da934621"
+    },
+    {
+      "file": "fonts/google-09941fb1c169c38f.woff2",
+      "bytes": 25904,
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370"
+    },
+    {
+      "file": "fonts/google-153fc85b70298bee.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "file": "fonts/google-a7c90c89240c134f.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "file": "media/generated-architectural-journey-poster.webp",
+      "bytes": 169856,
+      "sha256": "b1ee456b383efb19714e24d8eda1c495eba53b7f6b8760fc685615daa05b1005"
+    },
+    {
+      "file": "media/generated-architectural-journey.mp4",
+      "bytes": 12104844,
+      "sha256": "abdd480d1e95f29087cb9e36f8a542bb8527fee3da34e2539b7c6abc79edd1bd"
+    },
+    {
+      "file": "media/generated-exterior-dusk-640.webp",
+      "bytes": 69106,
+      "sha256": "8ad58c664900b75bbf43e73da9efca8af0e1aaa6b48fceee0c9b88a561359dde"
+    },
+    {
+      "file": "media/generated-exterior-dusk-960.webp",
+      "bytes": 151180,
+      "sha256": "5f473a9c69a67a9d7640c3b4a3f02bc51ba6e4577d4e89f79520f5767adc0628"
+    },
+    {
+      "file": "media/generated-exterior-dusk.webp",
+      "bytes": 373492,
+      "sha256": "d4bd9e5a5bdc18f2a95a4db3a88e22e26756a43f18278dca76307d7e74cb16e4"
+    },
+    {
+      "file": "media/generated-kitchen-640.webp",
+      "bytes": 46212,
+      "sha256": "091c73d4e2eadfc22907c9870c63a76721c3f0a148ac3ac0baf50b992e1caf78"
+    },
+    {
+      "file": "media/generated-kitchen-960.webp",
+      "bytes": 95944,
+      "sha256": "f36bb2a025ad20562259655bcf10ea93c23f2647855e4f84f5afd70fae306e48"
+    },
+    {
+      "file": "media/generated-kitchen.webp",
+      "bytes": 225132,
+      "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1"
+    },
+    {
+      "file": "media/generated-living-640.webp",
+      "bytes": 58018,
+      "sha256": "f2249b4643071ea5babfbf3ab4cf95321922cc818529dcee5b7d2d2cbd933f08"
+    },
+    {
+      "file": "media/generated-living-960.webp",
+      "bytes": 120910,
+      "sha256": "69a8f6feeb7b81890b95d4e71b27974734f16e4e6fc208182fb82c9944a1ec54"
+    },
+    {
+      "file": "media/generated-living.webp",
+      "bytes": 280890,
+      "sha256": "bbee885dff19cc117edce95cf95cad5575ab0a8dc5a194b6d78ed63eef8e6d1e"
+    },
+    {
+      "file": "media/generated-materials-640.webp",
+      "bytes": 65798,
+      "sha256": "8455a8e05cda18f35e36bdcc631db9ddbab3f6e0715169df78dc37f7136bc167"
+    },
+    {
+      "file": "media/generated-materials-960.webp",
+      "bytes": 140262,
+      "sha256": "597ea776283096867793349e3cfe0c2d22b158f53a71c169c3ea06d557626569"
+    },
+    {
+      "file": "media/generated-materials.webp",
+      "bytes": 319764,
+      "sha256": "bed5989ca6b33b0761cbccbadf04a085fe503ff403ade85265a230c8bb260a0b"
+    }
+  ],
+  "note": "Source provenance records include shared family variants; only files in this public manifest are deployed by this preview."
+}

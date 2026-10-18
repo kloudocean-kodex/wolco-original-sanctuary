@@ -1,0 +1,37 @@
+{
+  "generatedDate": "2026-10-18",
+  "assets": [
+    {
+      "key": "exterior",
+      "name": "generated-exterior-dusk",
+      "source": "C:\\Users\\gawar\\.codex\\generated_images\\01a14d89-df07-79e0-adf4-f1de56bd2914\\exec-a6050126-884b-4c5a-ae53-f6dbb1500795.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: ultra-premium architecture website hero, wide landscape 16:9. Primary request: a fictional contemporary Melbourne residence as a considered architectural design visualisation, quiet luxury, cinematic yet convincingly buildable. A two-storey home of pale warm travertine and ivory limewashed masonry, finely spaced dark bronze joinery, deeply recessed glazing glowing softly, restrained solid oak entry, sculptural landscaping of native grasses and a mature olive tree, broad stone entry path. Low roofline and an elegant cantilever, correct structurally plausible geometry. Street-level architectural photography, slight three-quarter view from across the garden, 28mm tilt-shift lens, straight verticals, building framed generously, enough sky above and garden below for responsive cropping; composition weighted slightly to right, complete facade visible. Warm dusk just after sunset, subtle interior amber illumination, hazy soft sky, detailed natural stone texture, refined shadows, muted ivory, warm grey and deep bronze palette, no lurid colours. Absolutely no people, cars, signage, text, logos, watermarks, impossible floating structures or exaggerated mansions. Editorial photography standard, nuanced natural contrast, no oversaturation or plastic CGI gloss. This is fictional inspiration and must not include any brand or imply a real completed home.",
+      "method": "built-in image_gen",
+      "classification": "fictional design visualisation"
+    },
+    {
+      "key": "kitchen",
+      "name": "generated-kitchen",
+      "source": "C:\\Users\\gawar\\.codex\\generated_images\\01a14d89-df07-79e0-adf4-f1de56bd2914\\exec-7b0c860c-ffcd-42a2-a2f9-30ae44440fb6.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium architecture website interior image, wide landscape 16:9. Primary request: a fictional contemporary Melbourne home kitchen as a considered architectural design visualisation, cohesive with warm ivory travertine exterior, quiet luxury, tactile and calm. Long monolithic pale honey travertine island with softly rounded ends and waterfall edge, brushed bronze tap and undermount sink, solid oak cabinetry with carefully aligned vertical grain, clean cream mineral plaster walls, deep-set large window to an olive and native grass courtyard. Integrated kitchen appliances, uncluttered practical working surfaces, three understated timber stools, a single simple hand-thrown ceramic bowl. Architectural editorial photography from standing eye level at a gentle diagonal across the island, 35mm tilt-shift, straight verticals and correct perspective. Soft late-afternoon natural light skims the stone, delicate shadow, precise convincing joinery, nuanced warm off-white, honey stone and pale oak, no excessive styling. Generous composition with full island visible and breathing room for responsive crops. No people, logos, text, signage or watermark. No glossy CGI, no exaggerated luxury, no incoherent geometry, no giant impossible stone spans, no saturated yellow. This is fictional concept inspiration and must not imply a real completed WOLCO home.",
+      "method": "built-in image_gen",
+      "classification": "fictional design visualisation"
+    },
+    {
+      "key": "materials",
+      "name": "generated-materials",
+      "source": "C:\\Users\\gawar\\.codex\\generated_images\\01a14d89-df07-79e0-adf4-f1de56bd2914\\exec-ac5588bc-4064-4502-abb2-192c52128175.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium architectural website tactile material detail, landscape 16:9. Primary request: an editorial close-up still life expressing the quiet luxury palette of a fictional Melbourne home. A large honed warm ivory travertine block with visible tiny pores rests on pale solid oak, a loosely folded piece of fine unbleached flax linen partly overlaps it, a short narrow brushed bronze architectural trim runs beside a small plaster colour sample, the soft shadow of one olive branch falls over the mineral surfaces. Only these essential material samples, no extra props, no hands or people, no labels. Art-directed with asymmetrical calm and generous breathing room, tactile macro-lens detail, precise believable scale, warm late-afternoon side light, strong but soft-edged shadow, bone white, pale sand, muted stone grey, natural oak and dark bronze palette. Understated architectural magazine photography, photoreal and physically convincing, exquisite surface detail, subtle film grain and restrained contrast. No text, logos, watermarks, branded products or busy decor. No saturated orange or glossy plastic CGI. This is fictional design inspiration, not a real WOLCO product or inclusion.",
+      "method": "built-in image_gen",
+      "classification": "fictional design visualisation"
+    },
+    {
+      "key": "living",
+      "name": "generated-living",
+      "source": "C:\\Users\\gawar\\.codex\\generated_images\\01a14d89-df07-79e0-adf4-f1de56bd2914\\exec-436035d8-55c4-4017-b0b5-0fcc4a6dafda.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium architecture website living room chapter and film frame, wide landscape 16:9. Primary request: a fictional contemporary Melbourne home's serene living room as a thoughtful architectural design visualisation, cohesive with pale travertine and oak kitchen, quiet luxury through proportion, light and texture. A beautifully proportioned double-height space, low curved cream linen sofa with tailored upholstery, one solid oak lounge chair, broad low dark bronze coffee table, large pale warm limestone floor slabs, mineral plaster walls, discreet linear shelving in warm oak, a generous open garden-facing corner of bronze-framed glazing with native grasses and an olive tree visible outside. Soft full-height linen sheer hangs naturally at the edge, no busy decoration. Two-story dimension should be physically plausible, window mullions align precisely. Wide architectural editorial camera at seated eye level from the threshold, 28mm tilt-shift, straight verticals, deep readable foreground, full sofa visible. Late afternoon sun creates long delicate shadow across the stone, bright garden, warm cream and pale stone, balanced interior exposure, soft nuanced film contrast, subtle authentic natural textures. No fireplace flames, no people, no cars, no text, logos or watermarks. No exaggerated mansion styling, glossy CGI surfaces, excessive objects or saturated orange. This is fictional concept inspiration, not a completed WOLCO home.",
+      "method": "built-in image_gen",
+      "classification": "fictional design visualisation"
+    }
+  ]
+}
