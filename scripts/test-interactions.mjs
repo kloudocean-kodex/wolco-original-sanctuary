@@ -21,6 +21,8 @@ w.URL.createObjectURL=b=>{const key='blob:unit-'+blobs.size;blobs.set(key,b);ret
 w.URL.revokeObjectURL=key=>blobs.delete(key);
 w.HTMLAnchorElement.prototype.click=function(){download={filename:this.download,url:this.href};};
 w.fetch=()=>{throw new Error('Unexpected application network request');};
+const iconSource=readFileSync('public/assets/icons.js','utf8');
+const iconScript=d.createElement('script');iconScript.textContent=iconSource;d.body.append(iconScript);
 const script=d.createElement('script');script.textContent=source;d.body.append(script);
 const el=selector=>{const node=d.querySelector(selector);assert.ok(node,selector);return node;};
 const click=selector=>el(selector).click();
@@ -47,6 +49,7 @@ await check('Study-to-enquiry action preserves its destination and text focus',a
 await check('Film loads on request and pauses on dialog close',async()=>{assert.equal(el('#showreel-video').getAttribute('src'),null);w.openShowreelModal();assert.match(el('#showreel-video').src,/generated-architectural-journey\.mp4$/);w.closeShowreelModal();await tick();assert.ok(pauseCalls>0);});
 await check('Privacy and preview details open as real dialogs',async()=>{for(const type of ['privacy','terms']){w.openLegalModal(type);assert.ok(el('#legal-modal').open);assert.ok(el('#legal-modal-text').textContent.length>100);w.closeLegalModal();await tick();}});
 await check('Mobile menu state is reversible',async()=>{w.toggleMobileMenu();assert.ok(el('#mobile-drawer').open);assert.equal(el('[aria-controls="mobile-drawer"]').getAttribute('aria-expanded'),'true');w.toggleMobileMenu();await tick();assert.equal(el('[aria-controls="mobile-drawer"]').getAttribute('aria-expanded'),'false');});
+await check('Official icon subset resolves every displayed icon',()=>{assert.equal(d.querySelectorAll('[data-lucide]').length,0);assert.ok(d.querySelectorAll('svg[viewBox="0 0 24 24"]').length>10);});
 const realErrors=consoleEvents.filter(x=>!x.includes('Not implemented: HTMLFormElement.prototype.requestSubmit'));
 assert.deepEqual(realErrors,[]);
 const report={observedAt:new Date().toISOString(),suite:'DOM interaction unit checks',scope:'Application state, rendered controls, validation, draft/download contents and absence of unexpected network calls. Platform adapters do not test layout, native dialog focus trapping, real media playback or actual browser downloads.',sourceSha256:createHash('sha256').update(source).digest('hex'),checks:results,passed:results.length,errors:realErrors};

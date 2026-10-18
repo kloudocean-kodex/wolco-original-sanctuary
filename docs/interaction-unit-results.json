@@ -1,8 +1,8 @@
 {
-  "observedAt": "2026-10-18T09:53:48.517Z",
+  "observedAt": "2026-10-18T10:12:01.571Z",
   "suite": "DOM interaction unit checks",
   "scope": "Application state, rendered controls, validation, draft/download contents and absence of unexpected network calls. Platform adapters do not test layout, native dialog focus trapping, real media playback or actual browser downloads.",
-  "sourceSha256": "3aeaed801184137522717b4f2fbd135164fcf6fa8f5d21add39b2c072da2ef7b",
+  "sourceSha256": "810d8f4cb09c5f98663caf580086094d25599c90e37b65355f65c43fe8a3e9f3",
   "checks": [
     {
       "name": "All displayed inline action functions exist",
@@ -87,8 +87,12 @@
     {
       "name": "Mobile menu state is reversible",
       "pass": true
+    },
+    {
+      "name": "Official icon subset resolves every displayed icon",
+      "pass": true
     }
   ],
-  "passed": 21,
+  "passed": 22,
   "errors": []
 }

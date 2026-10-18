@@ -1,11 +1,10 @@
 {
   "root": "C:\\Users\\gawar\\Downloads\\KloudOcean_ProddyG\\wolco-original-sanctuary\\dist",
   "pageCount": 2,
-  "assetCount": 26,
+  "assetCount": 37,
   "assets": [
     "assets/fonts.css",
-    "assets/gsap.min.js",
-    "assets/lucide.min.js",
+    "assets/icons.js",
     "assets/main.js",
     "assets/refinements.css",
     "assets/tailwind.css",
@@ -17,23 +16,34 @@
     "fonts/google-a7c90c89240c134f.woff2",
     "media/generated-architectural-journey-poster.webp",
     "media/generated-architectural-journey.mp4",
+    "media/generated-exterior-dusk-640.avif",
     "media/generated-exterior-dusk-640.webp",
+    "media/generated-exterior-dusk-960.avif",
     "media/generated-exterior-dusk-960.webp",
+    "media/generated-exterior-dusk.avif",
     "media/generated-exterior-dusk.webp",
+    "media/generated-kitchen-640.avif",
     "media/generated-kitchen-640.webp",
+    "media/generated-kitchen-960.avif",
     "media/generated-kitchen-960.webp",
+    "media/generated-kitchen.avif",
     "media/generated-kitchen.webp",
+    "media/generated-living-640.avif",
     "media/generated-living-640.webp",
+    "media/generated-living-960.avif",
     "media/generated-living-960.webp",
+    "media/generated-living.avif",
     "media/generated-living.webp",
+    "media/generated-materials-640.avif",
     "media/generated-materials-640.webp",
+    "media/generated-materials-960.avif",
     "media/generated-materials-960.webp",
+    "media/generated-materials.avif",
     "media/generated-materials.webp"
   ],
   "referencedAssets": [
     "assets/fonts.css",
-    "assets/gsap.min.js",
-    "assets/lucide.min.js",
+    "assets/icons.js",
     "assets/main.js",
     "assets/refinements.css",
     "assets/tailwind.css",
@@ -44,8 +54,23 @@
     "fonts/google-153fc85b70298bee.woff2",
     "fonts/google-a7c90c89240c134f.woff2",
     "media/generated-architectural-journey-poster.webp",
+    "media/generated-exterior-dusk-640.avif",
+    "media/generated-exterior-dusk-640.webp",
+    "media/generated-exterior-dusk-960.avif",
+    "media/generated-exterior-dusk-960.webp",
+    "media/generated-exterior-dusk.avif",
     "media/generated-exterior-dusk.webp",
+    "media/generated-kitchen-640.avif",
+    "media/generated-kitchen-640.webp",
+    "media/generated-kitchen-960.avif",
+    "media/generated-kitchen-960.webp",
+    "media/generated-kitchen.avif",
     "media/generated-kitchen.webp",
+    "media/generated-living-640.avif",
+    "media/generated-living-640.webp",
+    "media/generated-living-960.avif",
+    "media/generated-living-960.webp",
+    "media/generated-living.avif",
     "media/generated-living.webp"
   ],
   "pages": [
@@ -67,10 +92,6 @@
       "bytes": 373492
     },
     {
-      "file": "assets/lucide.min.js",
-      "bytes": 357796
-    },
-    {
       "file": "media/generated-materials.webp",
       "bytes": 319764
     },
@@ -83,8 +104,20 @@
       "bytes": 225132
     },
     {
+      "file": "media/generated-exterior-dusk.avif",
+      "bytes": 208470
+    },
+    {
+      "file": "media/generated-materials.avif",
+      "bytes": 183173
+    },
+    {
       "file": "media/generated-architectural-journey-poster.webp",
       "bytes": 169856
+    },
+    {
+      "file": "media/generated-living.avif",
+      "bytes": 156490
     },
     {
       "file": "media/generated-exterior-dusk-960.webp",
@@ -95,6 +128,10 @@
       "bytes": 140262
     },
     {
+      "file": "media/generated-kitchen.avif",
+      "bytes": 134239
+    },
+    {
       "file": "media/generated-living-960.webp",
       "bytes": 120910
     },
@@ -103,8 +140,16 @@
       "bytes": 95944
     },
     {
-      "file": "assets/gsap.min.js",
-      "bytes": 72435
+      "file": "media/generated-exterior-dusk-960.avif",
+      "bytes": 87314
+    },
+    {
+      "file": "media/generated-materials-960.avif",
+      "bytes": 81873
+    },
+    {
+      "file": "media/generated-living-960.avif",
+      "bytes": 69109
     },
     {
       "file": "media/generated-exterior-dusk-640.webp",
@@ -116,27 +161,7 @@
     },
     {
       "file": "index.html",
-      "bytes": 63123
-    },
-    {
-      "file": "media/generated-living-640.webp",
-      "bytes": 58018
-    },
-    {
-      "file": "media/generated-kitchen-640.webp",
-      "bytes": 46212
-    },
-    {
-      "file": "fonts/cormorant-garamond-latin-italic.woff2",
-      "bytes": 39304
-    },
-    {
-      "file": "fonts/cormorant-garamond-latin-normal.woff2",
-      "bytes": 37776
-    },
-    {
-      "file": "assets/tailwind.css",
-      "bytes": 31842
+      "bytes": 64979
     }
   ]
 }

@@ -4,7 +4,7 @@ Observed 18 October 2026 in Edge. Local production export inspected at 320, 390,
 
 Four hero studies and four detail dialogs; search and category/feeling filters including empty/reset state; three palettes; two diagram levels, mirror and four room selections; twelve journey steps; size/mood planner; validated editable brief and actual text download; native film playback and pause on close; mobile menu reverse-Tab containment and Escape/focus return. The final mobile diagram uses numbered points with readable 44px room controls.
 
-Build and video range unit tests pass. Production dependency audit reports zero vulnerabilities. 21 meaningful interaction tests pass; JSDOM platform adapters and their limits are documented in the test source and result record.
+Build and video range unit tests pass. Production dependency audit reports zero vulnerabilities. 22 meaningful interaction tests pass; JSDOM platform adapters and their limits are documented in the test source and result record.
 
 Static export checks report zero missing local dependencies or invalid local destinations. The synthetic 404 is tested separately after hosting. Film files are generated concept visualisations and retain source generation marks. No email was sent and no lead was created during testing.
 

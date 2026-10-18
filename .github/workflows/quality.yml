@@ -1,7 +1,7 @@
 name: Quality
 on:
   push:
-    branches: [main]
+    branches: [main, "perf/**"]
   pull_request:
     branches: [main]
 jobs:
