@@ -15,10 +15,10 @@ Tailwind is compiled at build time. Fonts, icons, scripts, images and film are s
 - Hero study selection, two collection filters, search and concept detail dialogs.
 - Two-level illustrative spatial diagram, mirrored arrangement and room hotspots.
 - Three mood palettes and an approximate square-to-square-metre brief planner. No fabricated prices, construction times or commercial specifications.
-- Twelve discussion steps, a controllable generated film and native accessible dialogs.
+- Twelve discussion steps, a controllable WOLCO project film and native accessible dialogs.
 - Validated review, editable text download and explicit `mailto:` handoff. The preview has no automatic enquiry delivery, booking or CRM integration. No email is sent by the application.
 
-Generated architecture is fictional inspiration. The original logo is used without alteration. Font licences and asset provenance are in `docs/`. The shared four-chapter film is silent, 1280×720, 24 fps and 38.42 seconds; the original visible generation marks are retained.
+Generated architecture is fictional inspiration. The original logo is used without alteration. Font licences and asset provenance are in `docs/`. The film is a silent, 1280×720, 24 fps, approximately 21.6-second edit of genuine client-supplied WOLCO project footage; the original WOLCO corner mark is retained. Nine WOLCO-specific concepts cover arrival, kitchen, living, architectural detail, bedroom, alfresco and three distinct selection palettes. See `docs/CURRENT_MEDIA.md` and `docs/exclusive-media-manifest.json` for the current asset record; earlier QA records describe their recorded baseline.
 
 ## Hosting and launch boundary
 

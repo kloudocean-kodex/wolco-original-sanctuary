@@ -1,5 +1,7 @@
 # Verification — original Sanctuary preview
 
+Historical baseline report. The recorded browser observations apply to the pre-exclusive-media release. The current film uses supplied WOLCO project footage and current concepts have new filenames; see `CURRENT_MEDIA.md` and `exclusive-media-manifest.json`. New local checks are recorded separately; live visual verification belongs to the current release review.
+
 Observed 18 October 2026 in Edge. Local production export inspected at 320, 390, 768, 1024 and 1440 CSS pixels: no root horizontal overflow or broken loaded images. Fonts are local and loaded. Automated desktop/mobile accessibility scans reported zero violations; manual-review items remain explicitly recorded in `accessibility-checks.json`.
 
 Four hero studies and four detail dialogs; search and category/feeling filters including empty/reset state; three palettes; two diagram levels, mirror and four room selections; twelve journey steps; size/mood planner; validated editable brief and actual text download; native film playback and pause on close; mobile menu reverse-Tab containment and Escape/focus return. The final mobile diagram uses numbered points with readable 44px room controls.

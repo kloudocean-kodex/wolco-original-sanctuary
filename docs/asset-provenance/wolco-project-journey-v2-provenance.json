@@ -1,0 +1,86 @@
+{
+  "classification": "Genuine WOLCO-supplied project footage, edited for web; not generated media.",
+  "sourceDescription": "Client-supplied Cookes Road project film; original retained in private source archive.",
+  "sourceSha256": "5f3290d808160a56703bf73e486dceaac28be393cb162f9a1f052e9ae676aaed",
+  "edit": {
+    "silent": true,
+    "outputDimensions": [
+      1280,
+      720
+    ],
+    "fps": 24,
+    "playbackSpeed": 0.8,
+    "motionTreatment": "30fps source slowed to 24fps; no generated/interpolated architectural frames.",
+    "approxDurationSeconds": 21.588,
+    "grade": "Subtle contrast and restrained saturation adjustment; original WOLCO corner mark retained.",
+    "transitions": "0.45-second cross-dissolves",
+    "transitionSeconds": 0.45,
+    "chapters": [
+      {
+        "name": "Arrival",
+        "sourceSeconds": [
+          25.25,
+          27.3
+        ],
+        "description": "Daytime facade"
+      },
+      {
+        "name": "Entry",
+        "sourceSeconds": [
+          44.6,
+          49.8
+        ],
+        "description": "Entry hallway"
+      },
+      {
+        "name": "Volume",
+        "sourceSeconds": [
+          96.1,
+          99
+        ],
+        "description": "Upper living volume and stair outlook"
+      },
+      {
+        "name": "Gather",
+        "sourceSeconds": [
+          49.98,
+          53.4
+        ],
+        "description": "Wide kitchen and joinery"
+      },
+      {
+        "name": "Craft",
+        "sourceSeconds": [
+          117.58,
+          119.83
+        ],
+        "description": "Illuminated bespoke joinery"
+      },
+      {
+        "name": "Restore",
+        "sourceSeconds": [
+          124.62,
+          126.58
+        ],
+        "description": "Full bathroom and vanity"
+      },
+      {
+        "name": "Home",
+        "sourceSeconds": [
+          139.9,
+          141.55
+        ],
+        "description": "Dusk facade"
+      }
+    ]
+  },
+  "output": {
+    "file": "wolco-project-journey-v2.mp4",
+    "bytes": 5290007,
+    "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3",
+    "poster": "wolco-project-journey-v2-poster.webp",
+    "posterBytes": 129560,
+    "posterSha256": "35a70110d8f3ab419915bd396ca9682fe298cee5862099d51f049934c5c1722a",
+    "fullDecode": "passed"
+  }
+}

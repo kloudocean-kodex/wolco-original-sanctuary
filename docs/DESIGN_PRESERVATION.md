@@ -18,7 +18,7 @@ Fix: hidden-on-return content, mobile overflow, menu keyboard behavior, unsuppor
 
 ## Additional original Sanctuary preview
 
-Source: `C:/Users/gawar/Downloads/wolco_homes_rebirth_live_preview (2).html`, retained untouched.
+Source: the supplied `wolco_homes_rebirth_live_preview (2).html`, retained untouched in the private source archive.
 
 Preserve: Cinzel capitals with Cormorant italic accents, Plus Jakarta body type, alabaster/travertine/espresso palette, garnet and bronze accents, frosted cards, sanctuary hero arrangement, interactive study panels, and the original section ordering/composition. Refine the supplied HTML rather than translating it into the Atelier design.
 

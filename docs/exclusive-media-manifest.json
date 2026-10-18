@@ -1,0 +1,487 @@
+{
+  "release": "WOLCO exclusive media v2",
+  "observedAt": "2026-10-18T19:24:10.481Z",
+  "scope": "Current public photographic/video media only; brand assets, fonts and icons are unchanged.",
+  "families": [
+    "wolco-courtyard-arrival",
+    "wolco-courtyard-gather",
+    "wolco-courtyard-dwell",
+    "wolco-courtyard-touch",
+    "wolco-courtyard-retreat",
+    "wolco-courtyard-alfresco",
+    "wolco-wow-white",
+    "wolco-wow-cashmere",
+    "wolco-wow-espresso"
+  ],
+  "film": {
+    "classification": "Genuine WOLCO-supplied project footage, edited for web; not generated media.",
+    "sourceDescription": "Client-supplied Cookes Road project film; original retained in private source archive.",
+    "sourceSha256": "5f3290d808160a56703bf73e486dceaac28be393cb162f9a1f052e9ae676aaed",
+    "edit": {
+      "silent": true,
+      "outputDimensions": [
+        1280,
+        720
+      ],
+      "fps": 24,
+      "playbackSpeed": 0.8,
+      "motionTreatment": "30fps source slowed to 24fps; no generated/interpolated architectural frames.",
+      "approxDurationSeconds": 21.588,
+      "grade": "Subtle contrast and restrained saturation adjustment; original WOLCO corner mark retained.",
+      "transitions": "0.45-second cross-dissolves",
+      "transitionSeconds": 0.45,
+      "chapters": [
+        {
+          "name": "Arrival",
+          "sourceSeconds": [
+            25.25,
+            27.3
+          ],
+          "description": "Daytime facade"
+        },
+        {
+          "name": "Entry",
+          "sourceSeconds": [
+            44.6,
+            49.8
+          ],
+          "description": "Entry hallway"
+        },
+        {
+          "name": "Volume",
+          "sourceSeconds": [
+            96.1,
+            99
+          ],
+          "description": "Upper living volume and stair outlook"
+        },
+        {
+          "name": "Gather",
+          "sourceSeconds": [
+            49.98,
+            53.4
+          ],
+          "description": "Wide kitchen and joinery"
+        },
+        {
+          "name": "Craft",
+          "sourceSeconds": [
+            117.58,
+            119.83
+          ],
+          "description": "Illuminated bespoke joinery"
+        },
+        {
+          "name": "Restore",
+          "sourceSeconds": [
+            124.62,
+            126.58
+          ],
+          "description": "Full bathroom and vanity"
+        },
+        {
+          "name": "Home",
+          "sourceSeconds": [
+            139.9,
+            141.55
+          ],
+          "description": "Dusk facade"
+        }
+      ]
+    },
+    "output": {
+      "file": "wolco-project-journey-v2.mp4",
+      "bytes": 5290007,
+      "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3",
+      "poster": "wolco-project-journey-v2-poster.webp",
+      "posterBytes": 129560,
+      "posterSha256": "35a70110d8f3ab419915bd396ca9682fe298cee5862099d51f049934c5c1722a",
+      "fullDecode": "passed"
+    }
+  },
+  "files": [
+    {
+      "file": "public/media/wolco-courtyard-alfresco-640.avif",
+      "bytes": 39475,
+      "sha256": "a0133f863d881cefeb5b64f7133c35a661acbcd6cc3bc8a09ac945dfa43bf337",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco-640.webp",
+      "bytes": 62472,
+      "sha256": "ada2df3896ac4cbe8bed8c05c02f2e86ecedfda0651c40f8fc851795ab813119",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco-960.avif",
+      "bytes": 85053,
+      "sha256": "7edc869ccbe7441790ff953ab2c0c32e5f25f36ac2a2734dd5c41435e5bd16bf",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco-960.webp",
+      "bytes": 130620,
+      "sha256": "2a6aedbff07835cb6f56aa586ea9f75aeba102590de23f6ac0ad41a1972d65a3",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco.avif",
+      "bytes": 193138,
+      "sha256": "b4ad5a203962965e8085595175f5ddb9ae937e5450971d7b80a5de3c03660f91",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-alfresco.webp",
+      "bytes": 299832,
+      "sha256": "453b88ef08d613cfa693c135718c06c35dfbd7b7509058e4b1333345ab49a581",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-640.avif",
+      "bytes": 45902,
+      "sha256": "67eca29c18b50c31ae3369c9102031e80c426649ca7cccae0dbd9a204c8ce128",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-640.webp",
+      "bytes": 70930,
+      "sha256": "753a363a448b98a56bdf729420c8aee9fa0d909507d3adfadd2fad770bba553f",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-960.avif",
+      "bytes": 104198,
+      "sha256": "c0b059f2bcc36e876d25d3914bf6b2c69c47a8a6b6a9ec3617fe9177389fd774",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival-960.webp",
+      "bytes": 154730,
+      "sha256": "9b1ad388a0e5c98ba88580722688c3caf756983261ef3f5092b72519847fbf05",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival.avif",
+      "bytes": 238004,
+      "sha256": "b201970614ce51bd170143faafa25a035b3cf257c5adee3e96022a5f06c66e44",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-arrival.webp",
+      "bytes": 370638,
+      "sha256": "ad1a844d36e3b71db27c9a81331c0bb6ea78d4cb108ecb63c2adbc093452e4db",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-640.avif",
+      "bytes": 38081,
+      "sha256": "afadfc3f5c777099ae3d2ee9a41bb89a72d2ac4bdda6d9022b1b3ccdb0a9da59",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-640.webp",
+      "bytes": 58792,
+      "sha256": "b318438e8aeeebc24d5f8d962a6f2c6b94c32df2e1acd826ec42db41ecd9b973",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-960.avif",
+      "bytes": 85043,
+      "sha256": "0e61d9eeeab8f40cdcf91cc5aa1e99a6f3ba4df4ad162e79d4aceeab4613f272",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell-960.webp",
+      "bytes": 125990,
+      "sha256": "9ccc38cefa75127756425e6c44826d4b67a0d983083ee69050e38065b85b8a9f",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell.avif",
+      "bytes": 201031,
+      "sha256": "e3a9610c56442969ef3cf42cb1d55722029a5a808342d81ec8aea76e00e0adff",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-dwell.webp",
+      "bytes": 302522,
+      "sha256": "e05fff65ffbe3dbbf938764618e7badc4829b424c0a85f06e564628d596c6eac",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-640.avif",
+      "bytes": 36458,
+      "sha256": "307a0116b4061c9acf77bba2d5eeb84260e0199b6c2686251a210ff1e8f65588",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-640.webp",
+      "bytes": 55764,
+      "sha256": "c93641de7444c193913c0019e6b94b3e574b6296728926f28aca88052725274e",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-960.avif",
+      "bytes": 77908,
+      "sha256": "e805d8495f4eb481fb1d9dbeb995c9a4f3b4b8d07ad5ce50b4441cbf51e1ee5a",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather-960.webp",
+      "bytes": 116676,
+      "sha256": "2445d0ee5a1dc7d0850c365a651e37472420b3d8d18806e074248c5b98e43cb4",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather.avif",
+      "bytes": 179193,
+      "sha256": "c7f7be5230a417081073ed715c2f74a1f5e83dde358512959ff926cce326bf6f",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-gather.webp",
+      "bytes": 265668,
+      "sha256": "5f19a96549e3f8726cf1d6c16c43a06b55fdd25daa9f33cb8b853af5f053e404",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-640.avif",
+      "bytes": 40211,
+      "sha256": "f050a4463766013fc6204048c8d67006a13d97bf7bda9aa3541560ac43a12ad5",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-640.webp",
+      "bytes": 62850,
+      "sha256": "73885339e2306febbfc9f531c536e91d1e852fc57a1963338bd992fbfcab6e0c",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-960.avif",
+      "bytes": 90704,
+      "sha256": "d5735e8f9cb0f1e68bc6ff6d64099a52732da7fd88904bdea9d7199ecaa1d800",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat-960.webp",
+      "bytes": 137630,
+      "sha256": "3507494660807710dcd4b6a0321f42d7b469ed4d1b2e13db2c30814b38dba60a",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat.avif",
+      "bytes": 210097,
+      "sha256": "0303e3812c3f4a11e9e299cb58c77f3491d6ec306e7e6dc38d187277548e2f89",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-retreat.webp",
+      "bytes": 315584,
+      "sha256": "42dca7cea8f04e970c45714027f5f971a7d1088a5d31d90c86bd70f23c0bf8b8",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-640.avif",
+      "bytes": 30675,
+      "sha256": "2069d94ade69bfe99f4d14246a911b4df460b142fbd0364ad7b290da17add06b",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-640.webp",
+      "bytes": 46278,
+      "sha256": "2200733ad0f087dae7e31faacad38b349449f923a0a8ad1131a1cf7ccecc26de",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-960.avif",
+      "bytes": 59320,
+      "sha256": "0a532272574dfd62f1b0ba0fa19ba80b102f9fce1cf741fb0731b3c4615eb959",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch-960.webp",
+      "bytes": 87450,
+      "sha256": "d71f3df8f0716059f421dabf1c580686a506ccacc45469e9c58456641d7a6556",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch.avif",
+      "bytes": 126578,
+      "sha256": "4255b09a82f83bc6e19af98c61553f1c91e943ae6ccb673338d283c4667dfa22",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-courtyard-touch.webp",
+      "bytes": 177114,
+      "sha256": "5ca8591f3e8f5b59d2e158460658bfd14b8937c34f1ee90d687725713853f1c7",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-project-journey-v2-poster.webp",
+      "bytes": 129560,
+      "sha256": "35a70110d8f3ab419915bd396ca9682fe298cee5862099d51f049934c5c1722a",
+      "classification": "Supplied WOLCO project film, edited for web"
+    },
+    {
+      "file": "public/media/wolco-project-journey-v2.mp4",
+      "bytes": 5290007,
+      "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3",
+      "classification": "Supplied WOLCO project film, edited for web"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-640.avif",
+      "bytes": 24642,
+      "sha256": "818c81086770399b0aa8e8b02c8c32546c90060783424ef69862d0b5dae53990",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-640.webp",
+      "bytes": 35390,
+      "sha256": "906c7f8f208583d58c310198bb43206e484f23b57a21d86be0c43443900bf9ba",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-960.avif",
+      "bytes": 50937,
+      "sha256": "49be6eaabb2f818025f393088aebc608a69181158ef5ecaa8d47be11a5f57a8a",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere-960.webp",
+      "bytes": 70574,
+      "sha256": "788f384bf70736a203d1f33b022966f6678737c4f635c495741079ca027ce342",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere.avif",
+      "bytes": 115919,
+      "sha256": "2bb2318b1b22d8c59a03dde3b99e0f9a0219a8cde66d720f7557934f8df96624",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-cashmere.webp",
+      "bytes": 152444,
+      "sha256": "28999ed72597556eb96758985bc7d9a41e7cd6304b7912375883ee448f0f9389",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-640.avif",
+      "bytes": 27153,
+      "sha256": "95c077f37117ffa4c7c3dfc8ab0087592029e38a72e02bd56a39082a68f172cf",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-640.webp",
+      "bytes": 41750,
+      "sha256": "deca2486536c65ae55e8dc3c41eff079004fa8c552edb5a16dbe81c2b318a377",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-960.avif",
+      "bytes": 57524,
+      "sha256": "f622da8cfb4e81894bdeed00c2f445cc68da245b2f73b3a3b0ef3a934a245e28",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso-960.webp",
+      "bytes": 86240,
+      "sha256": "f4303b7b0d6fb9a5bedc9757ffe0eed8ae05724467d00fc8e695477ca7e5c872",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso.avif",
+      "bytes": 131481,
+      "sha256": "543d72be06a5df3faaf9c1cdb6938dbe91031610790c005707e0daf918e24a54",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-espresso.webp",
+      "bytes": 188218,
+      "sha256": "9c93b0a0100169fb82cb6c1f01dd21675bba42f9c89964ba7743f21014710a09",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white-640.avif",
+      "bytes": 19005,
+      "sha256": "2c99a0f592abda640462fbe02e1619005c3b910134070fc5c7f1348732a454df",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white-640.webp",
+      "bytes": 27914,
+      "sha256": "1031ec412853e58a3228c0c3c28b3dfbafd7b09aa86c81396a1faa990a65b0c0",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white-960.avif",
+      "bytes": 36679,
+      "sha256": "65b14584132053c2551c47a5d5b7f74a7f534c5b3adae03dd3fa1c43a89ea069",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white-960.webp",
+      "bytes": 51660,
+      "sha256": "95df2639d9c2c6b28290f2d23deaa255675a8b5358cfeeed7861a411086e9b00",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white.avif",
+      "bytes": 77492,
+      "sha256": "f0560357ee50e47b13165ccfa63d406fdf7412d1636befc741e2c7524eb1a655",
+      "classification": "Generated fictional architectural or selection concept"
+    },
+    {
+      "file": "public/media/wolco-wow-white.webp",
+      "bytes": 105910,
+      "sha256": "f8b5cb3f1de6023a9c5fa146d74b892eeefbf6c07c30cca0e54ae6c2431264a7",
+      "classification": "Generated fictional architectural or selection concept"
+    }
+  ],
+  "originals": [
+    {
+      "name": "wolco-courtyard-arrival.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "ce149be6dd81acd77d0042b3aee1c84fa580f97ab276f42a21ef75f197996501"
+    },
+    {
+      "name": "wolco-courtyard-gather.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "4a123a6942686374e6449405a101c1e003308cb363fff50ab304fdf9ffe0e4cb"
+    },
+    {
+      "name": "wolco-courtyard-dwell.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "275083be8ede65baa0495b34a54e05bcab8bbf292cec0067c7865425c2103f07"
+    },
+    {
+      "name": "wolco-courtyard-touch.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "361f756165896b45d8c8b15b5b040d413c6803f5c64a1e243633600a707684af"
+    },
+    {
+      "name": "wolco-courtyard-retreat.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "34cb097e893172464a1d0cde26b965aecda21e4da7a255509b4da0ce52b7238b"
+    },
+    {
+      "name": "wolco-courtyard-alfresco.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "917562e62394db1194cfb0d6770107afcfd44329864cad466dee506ce21da2bc"
+    },
+    {
+      "name": "wolco-wow-white.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "f0002082ebc3636fa5759f24abb57c94d69586623c7ea9f55a6ae800cc5ae1d0"
+    },
+    {
+      "name": "wolco-wow-cashmere.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "4e5b3a8627a366ce0e0040073e1e7b4823f06d26fa3b8ee12beee34df68b9c98"
+    },
+    {
+      "name": "wolco-wow-espresso.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "322cc0452a44705eacd86c515cd7259cb1a3dd73ddeb9ef7e563fa4ef883eb32"
+    }
+  ]
+}

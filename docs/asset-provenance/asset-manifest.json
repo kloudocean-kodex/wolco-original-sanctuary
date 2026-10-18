@@ -1,136 +1,149 @@
 {
-  "assets": [
-    {
-      "name": "generated-exterior-dusk",
-      "classification": "fictional design visualisation",
-      "original": "originals\\generated-exterior-dusk.png",
-      "source_size": [
-        1672,
-        941
+  "release": "WOLCO exclusive media v2",
+  "observedAt": "2026-10-18T19:24:10.481Z",
+  "scope": "Current public photographic/video media only; brand assets, fonts and icons are unchanged.",
+  "families": [
+    "wolco-courtyard-arrival",
+    "wolco-courtyard-gather",
+    "wolco-courtyard-dwell",
+    "wolco-courtyard-touch",
+    "wolco-courtyard-retreat",
+    "wolco-courtyard-alfresco",
+    "wolco-wow-white",
+    "wolco-wow-cashmere",
+    "wolco-wow-espresso"
+  ],
+  "film": {
+    "classification": "Genuine WOLCO-supplied project footage, edited for web; not generated media.",
+    "sourceDescription": "Client-supplied Cookes Road project film; original retained in private source archive.",
+    "sourceSha256": "5f3290d808160a56703bf73e486dceaac28be393cb162f9a1f052e9ae676aaed",
+    "edit": {
+      "silent": true,
+      "outputDimensions": [
+        1280,
+        720
       ],
-      "original_sha256": "55826329b84626a80445b56180fd978f55eb5d0802f2ca092ce138bfbb99d822",
-      "outputs": [
+      "fps": 24,
+      "playbackSpeed": 0.8,
+      "motionTreatment": "30fps source slowed to 24fps; no generated/interpolated architectural frames.",
+      "approxDurationSeconds": 21.588,
+      "grade": "Subtle contrast and restrained saturation adjustment; original WOLCO corner mark retained.",
+      "transitions": "0.45-second cross-dissolves",
+      "transitionSeconds": 0.45,
+      "chapters": [
         {
-          "file": "generated-exterior-dusk-640.webp",
-          "width": 640,
-          "height": 360,
-          "bytes": 69106,
-          "sha256": "8ad58c664900b75bbf43e73da9efca8af0e1aaa6b48fceee0c9b88a561359dde"
+          "name": "Arrival",
+          "sourceSeconds": [
+            25.25,
+            27.3
+          ],
+          "description": "Daytime facade"
         },
         {
-          "file": "generated-exterior-dusk-960.webp",
-          "width": 960,
-          "height": 540,
-          "bytes": 151180,
-          "sha256": "5f473a9c69a67a9d7640c3b4a3f02bc51ba6e4577d4e89f79520f5767adc0628"
+          "name": "Entry",
+          "sourceSeconds": [
+            44.6,
+            49.8
+          ],
+          "description": "Entry hallway"
         },
         {
-          "file": "generated-exterior-dusk.webp",
-          "width": 1600,
-          "height": 900,
-          "bytes": 373492,
-          "sha256": "d4bd9e5a5bdc18f2a95a4db3a88e22e26756a43f18278dca76307d7e74cb16e4"
+          "name": "Volume",
+          "sourceSeconds": [
+            96.1,
+            99
+          ],
+          "description": "Upper living volume and stair outlook"
+        },
+        {
+          "name": "Gather",
+          "sourceSeconds": [
+            49.98,
+            53.4
+          ],
+          "description": "Wide kitchen and joinery"
+        },
+        {
+          "name": "Craft",
+          "sourceSeconds": [
+            117.58,
+            119.83
+          ],
+          "description": "Illuminated bespoke joinery"
+        },
+        {
+          "name": "Restore",
+          "sourceSeconds": [
+            124.62,
+            126.58
+          ],
+          "description": "Full bathroom and vanity"
+        },
+        {
+          "name": "Home",
+          "sourceSeconds": [
+            139.9,
+            141.55
+          ],
+          "description": "Dusk facade"
         }
       ]
     },
+    "output": {
+      "file": "wolco-project-journey-v2.mp4",
+      "bytes": 5290007,
+      "sha256": "660ac641ac7c8c292533118e92186b1b556ef02c9ebfdb4781ae09b43640f3c3",
+      "poster": "wolco-project-journey-v2-poster.webp",
+      "posterBytes": 129560,
+      "posterSha256": "35a70110d8f3ab419915bd396ca9682fe298cee5862099d51f049934c5c1722a",
+      "fullDecode": "passed"
+    }
+  },
+  "originals": [
     {
-      "name": "generated-kitchen",
-      "classification": "fictional design visualisation",
-      "original": "originals\\generated-kitchen.png",
-      "source_size": [
-        1672,
-        941
-      ],
-      "original_sha256": "88ca6d05a76bd07b6c05080652816e1be70eace97cab37e36f1cb08eb8a40c82",
-      "outputs": [
-        {
-          "file": "generated-kitchen-640.webp",
-          "width": 640,
-          "height": 360,
-          "bytes": 46212,
-          "sha256": "091c73d4e2eadfc22907c9870c63a76721c3f0a148ac3ac0baf50b992e1caf78"
-        },
-        {
-          "file": "generated-kitchen-960.webp",
-          "width": 960,
-          "height": 540,
-          "bytes": 95944,
-          "sha256": "f36bb2a025ad20562259655bcf10ea93c23f2647855e4f84f5afd70fae306e48"
-        },
-        {
-          "file": "generated-kitchen.webp",
-          "width": 1600,
-          "height": 900,
-          "bytes": 225132,
-          "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1"
-        }
-      ]
+      "name": "wolco-courtyard-arrival.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "ce149be6dd81acd77d0042b3aee1c84fa580f97ab276f42a21ef75f197996501"
     },
     {
-      "name": "generated-materials",
-      "classification": "fictional design visualisation",
-      "original": "originals\\generated-materials.png",
-      "source_size": [
-        1672,
-        941
-      ],
-      "original_sha256": "9a1382a521af30d0c41691e84e3085eb7f257b59f04aa4e7760dfd2e528b9246",
-      "outputs": [
-        {
-          "file": "generated-materials-640.webp",
-          "width": 640,
-          "height": 360,
-          "bytes": 65798,
-          "sha256": "8455a8e05cda18f35e36bdcc631db9ddbab3f6e0715169df78dc37f7136bc167"
-        },
-        {
-          "file": "generated-materials-960.webp",
-          "width": 960,
-          "height": 540,
-          "bytes": 140262,
-          "sha256": "597ea776283096867793349e3cfe0c2d22b158f53a71c169c3ea06d557626569"
-        },
-        {
-          "file": "generated-materials.webp",
-          "width": 1600,
-          "height": 900,
-          "bytes": 319764,
-          "sha256": "bed5989ca6b33b0761cbccbadf04a085fe503ff403ade85265a230c8bb260a0b"
-        }
-      ]
+      "name": "wolco-courtyard-gather.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "4a123a6942686374e6449405a101c1e003308cb363fff50ab304fdf9ffe0e4cb"
     },
     {
-      "name": "generated-living",
-      "classification": "fictional design visualisation",
-      "original": "originals\\generated-living.png",
-      "source_size": [
-        1672,
-        941
-      ],
-      "original_sha256": "1408ea332aae3c2ba78786d078a8af3f7817ee7f4ef1284fc7c1cf054abaeaff",
-      "outputs": [
-        {
-          "file": "generated-living-640.webp",
-          "width": 640,
-          "height": 360,
-          "bytes": 58018,
-          "sha256": "f2249b4643071ea5babfbf3ab4cf95321922cc818529dcee5b7d2d2cbd933f08"
-        },
-        {
-          "file": "generated-living-960.webp",
-          "width": 960,
-          "height": 540,
-          "bytes": 120910,
-          "sha256": "69a8f6feeb7b81890b95d4e71b27974734f16e4e6fc208182fb82c9944a1ec54"
-        },
-        {
-          "file": "generated-living.webp",
-          "width": 1600,
-          "height": 900,
-          "bytes": 280890,
-          "sha256": "bbee885dff19cc117edce95cf95cad5575ab0a8dc5a194b6d78ed63eef8e6d1e"
-        }
-      ]
+      "name": "wolco-courtyard-dwell.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "275083be8ede65baa0495b34a54e05bcab8bbf292cec0067c7865425c2103f07"
+    },
+    {
+      "name": "wolco-courtyard-touch.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "361f756165896b45d8c8b15b5b040d413c6803f5c64a1e243633600a707684af"
+    },
+    {
+      "name": "wolco-courtyard-retreat.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "34cb097e893172464a1d0cde26b965aecda21e4da7a255509b4da0ce52b7238b"
+    },
+    {
+      "name": "wolco-courtyard-alfresco.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "917562e62394db1194cfb0d6770107afcfd44329864cad466dee506ce21da2bc"
+    },
+    {
+      "name": "wolco-wow-white.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "f0002082ebc3636fa5759f24abb57c94d69586623c7ea9f55a6ae800cc5ae1d0"
+    },
+    {
+      "name": "wolco-wow-cashmere.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "4e5b3a8627a366ce0e0040073e1e7b4823f06d26fa3b8ee12beee34df68b9c98"
+    },
+    {
+      "name": "wolco-wow-espresso.png",
+      "classification": "Generated fictional concept, created specifically for WOLCO inspiration",
+      "sha256": "322cc0452a44705eacd86c515cd7259cb1a3dd73ddeb9ef7e563fa4ef883eb32"
     }
   ]
 }

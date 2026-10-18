@@ -1,0 +1,136 @@
+{
+  "assets": [
+    {
+      "name": "generated-exterior-dusk",
+      "classification": "fictional design visualisation",
+      "original": "originals\\generated-exterior-dusk.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "original_sha256": "55826329b84626a80445b56180fd978f55eb5d0802f2ca092ce138bfbb99d822",
+      "outputs": [
+        {
+          "file": "generated-exterior-dusk-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 69106,
+          "sha256": "8ad58c664900b75bbf43e73da9efca8af0e1aaa6b48fceee0c9b88a561359dde"
+        },
+        {
+          "file": "generated-exterior-dusk-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 151180,
+          "sha256": "5f473a9c69a67a9d7640c3b4a3f02bc51ba6e4577d4e89f79520f5767adc0628"
+        },
+        {
+          "file": "generated-exterior-dusk.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 373492,
+          "sha256": "d4bd9e5a5bdc18f2a95a4db3a88e22e26756a43f18278dca76307d7e74cb16e4"
+        }
+      ]
+    },
+    {
+      "name": "generated-kitchen",
+      "classification": "fictional design visualisation",
+      "original": "originals\\generated-kitchen.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "original_sha256": "88ca6d05a76bd07b6c05080652816e1be70eace97cab37e36f1cb08eb8a40c82",
+      "outputs": [
+        {
+          "file": "generated-kitchen-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 46212,
+          "sha256": "091c73d4e2eadfc22907c9870c63a76721c3f0a148ac3ac0baf50b992e1caf78"
+        },
+        {
+          "file": "generated-kitchen-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 95944,
+          "sha256": "f36bb2a025ad20562259655bcf10ea93c23f2647855e4f84f5afd70fae306e48"
+        },
+        {
+          "file": "generated-kitchen.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 225132,
+          "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1"
+        }
+      ]
+    },
+    {
+      "name": "generated-materials",
+      "classification": "fictional design visualisation",
+      "original": "originals\\generated-materials.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "original_sha256": "9a1382a521af30d0c41691e84e3085eb7f257b59f04aa4e7760dfd2e528b9246",
+      "outputs": [
+        {
+          "file": "generated-materials-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 65798,
+          "sha256": "8455a8e05cda18f35e36bdcc631db9ddbab3f6e0715169df78dc37f7136bc167"
+        },
+        {
+          "file": "generated-materials-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 140262,
+          "sha256": "597ea776283096867793349e3cfe0c2d22b158f53a71c169c3ea06d557626569"
+        },
+        {
+          "file": "generated-materials.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 319764,
+          "sha256": "bed5989ca6b33b0761cbccbadf04a085fe503ff403ade85265a230c8bb260a0b"
+        }
+      ]
+    },
+    {
+      "name": "generated-living",
+      "classification": "fictional design visualisation",
+      "original": "originals\\generated-living.png",
+      "source_size": [
+        1672,
+        941
+      ],
+      "original_sha256": "1408ea332aae3c2ba78786d078a8af3f7817ee7f4ef1284fc7c1cf054abaeaff",
+      "outputs": [
+        {
+          "file": "generated-living-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 58018,
+          "sha256": "f2249b4643071ea5babfbf3ab4cf95321922cc818529dcee5b7d2d2cbd933f08"
+        },
+        {
+          "file": "generated-living-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 120910,
+          "sha256": "69a8f6feeb7b81890b95d4e71b27974734f16e4e6fc208182fb82c9944a1ec54"
+        },
+        {
+          "file": "generated-living.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 280890,
+          "sha256": "bbee885dff19cc117edce95cf95cad5575ab0a8dc5a194b6d78ed63eef8e6d1e"
+        }
+      ]
+    }
+  ]
+}

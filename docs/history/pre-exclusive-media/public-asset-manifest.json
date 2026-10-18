@@ -1,0 +1,196 @@
+{
+  "observedAt": "2026-10-18",
+  "files": [
+    {
+      "file": "robots.txt",
+      "bytes": 28,
+      "sha256": "a8f31103361fca68bef71fc69cff844b7c23bd3d64d2b872d74690cbda656bfc"
+    },
+    {
+      "file": "_headers",
+      "bytes": 518,
+      "sha256": "a835a5bfe5c2006e5f3b793cedb77f379c920b5cbdcca2a6eab7d20e85e2a8cb"
+    },
+    {
+      "file": "_routes.json",
+      "bytes": 105,
+      "sha256": "019d057e5e1322065e4a10d442c22b69a57315a0d07a0f7c792faafa6a9b8d7b"
+    },
+    {
+      "file": "assets/fonts.css",
+      "bytes": 4079,
+      "sha256": "beddac76b41159f6cd68d5b4c19787c2bd7d33a220c48a4d8f94708dc35d2862"
+    },
+    {
+      "file": "assets/icons.js",
+      "bytes": 6451,
+      "sha256": "13d8132d2ba4d43310fb695695ec3490bb9c16d8b498deb088ebc2695e5b3f47"
+    },
+    {
+      "file": "assets/tailwind.css",
+      "bytes": 31842,
+      "sha256": "7a905312caa5513e8b35bd13d8285c512b99b4143061811c4a7138a8e8857534"
+    },
+    {
+      "file": "brand/wolco-original-logo.webp",
+      "bytes": 8926,
+      "sha256": "af886990434764ebbc263f624f8568c5251e5d3c42afe70182af636cc0f92c15"
+    },
+    {
+      "file": "fonts/cormorant-garamond-latin-italic.woff2",
+      "bytes": 39304,
+      "sha256": "e6d6d1d73858aa9b66f3a3539f9dec22faab2276e61ad1d813bc04dd59c9c122"
+    },
+    {
+      "file": "fonts/cormorant-garamond-latin-normal.woff2",
+      "bytes": 37776,
+      "sha256": "5d618c462b7a5b74f442e1548880086af71764d9cc7d35c16ab45353da934621"
+    },
+    {
+      "file": "fonts/google-09941fb1c169c38f.woff2",
+      "bytes": 25904,
+      "sha256": "09941fb1c169c38fd414536b37690057fc01b3117a5c63dd6571186540c8f370"
+    },
+    {
+      "file": "fonts/google-153fc85b70298bee.woff2",
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    {
+      "file": "fonts/google-a7c90c89240c134f.woff2",
+      "bytes": 13768,
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+    },
+    {
+      "file": "media/generated-architectural-journey-poster.webp",
+      "bytes": 169856,
+      "sha256": "b1ee456b383efb19714e24d8eda1c495eba53b7f6b8760fc685615daa05b1005"
+    },
+    {
+      "file": "media/generated-architectural-journey.mp4",
+      "bytes": 12104844,
+      "sha256": "abdd480d1e95f29087cb9e36f8a542bb8527fee3da34e2539b7c6abc79edd1bd"
+    },
+    {
+      "file": "media/generated-exterior-dusk-640.avif",
+      "bytes": 38578,
+      "sha256": "d4081a17f89c7ace9282d9bcf1dd6d9e68b3d2fc1b1dc7130117ac9aa35828ca"
+    },
+    {
+      "file": "media/generated-exterior-dusk-640.webp",
+      "bytes": 69106,
+      "sha256": "8ad58c664900b75bbf43e73da9efca8af0e1aaa6b48fceee0c9b88a561359dde"
+    },
+    {
+      "file": "media/generated-exterior-dusk-960.avif",
+      "bytes": 87314,
+      "sha256": "52e46e7f8abe85b881f4b943819e4694e6df1a980ecb23d441a4c540699a6fe1"
+    },
+    {
+      "file": "media/generated-exterior-dusk-960.webp",
+      "bytes": 151180,
+      "sha256": "5f473a9c69a67a9d7640c3b4a3f02bc51ba6e4577d4e89f79520f5767adc0628"
+    },
+    {
+      "file": "media/generated-exterior-dusk.avif",
+      "bytes": 208470,
+      "sha256": "7579f67833572147062b58f54a64a190351e29bcf66ce7d934534718343362cd"
+    },
+    {
+      "file": "media/generated-exterior-dusk.webp",
+      "bytes": 373492,
+      "sha256": "d4bd9e5a5bdc18f2a95a4db3a88e22e26756a43f18278dca76307d7e74cb16e4"
+    },
+    {
+      "file": "media/generated-kitchen-640.avif",
+      "bytes": 26262,
+      "sha256": "e2d636e457608664418ddfd3f3f29105e220a5b2075e8e9c2958b56c53fbc191"
+    },
+    {
+      "file": "media/generated-kitchen-640.webp",
+      "bytes": 46212,
+      "sha256": "091c73d4e2eadfc22907c9870c63a76721c3f0a148ac3ac0baf50b992e1caf78"
+    },
+    {
+      "file": "media/generated-kitchen-960.avif",
+      "bytes": 56897,
+      "sha256": "41ff5c92df55b3d7031d96383c5fbd289e2ae9c8957c24441a23bd4b47249c93"
+    },
+    {
+      "file": "media/generated-kitchen-960.webp",
+      "bytes": 95944,
+      "sha256": "f36bb2a025ad20562259655bcf10ea93c23f2647855e4f84f5afd70fae306e48"
+    },
+    {
+      "file": "media/generated-kitchen.avif",
+      "bytes": 134239,
+      "sha256": "f0b874f74757e5d953844b1cd47af017fbe3ef911ab5c6293f9061375594b534"
+    },
+    {
+      "file": "media/generated-kitchen.webp",
+      "bytes": 225132,
+      "sha256": "7bb91115109638698c98547b4bc1f09fd65a7ec0368e50cc547dbb20a9c7e8d1"
+    },
+    {
+      "file": "media/generated-living-640.avif",
+      "bytes": 32508,
+      "sha256": "91c7992c09f467c3ab3623fb4a80c3026d099175776076ea98ac293385125bfb"
+    },
+    {
+      "file": "media/generated-living-640.webp",
+      "bytes": 58018,
+      "sha256": "f2249b4643071ea5babfbf3ab4cf95321922cc818529dcee5b7d2d2cbd933f08"
+    },
+    {
+      "file": "media/generated-living-960.avif",
+      "bytes": 69109,
+      "sha256": "8c1c0463cedab5af748dffa3644482b60352f5f1e5527880dbd8fd4eae1a4034"
+    },
+    {
+      "file": "media/generated-living-960.webp",
+      "bytes": 120910,
+      "sha256": "69a8f6feeb7b81890b95d4e71b27974734f16e4e6fc208182fb82c9944a1ec54"
+    },
+    {
+      "file": "media/generated-living.avif",
+      "bytes": 156490,
+      "sha256": "7c5af9b2bec2dd4968ed7c6dba5e671eff8645a2ef618fd75c55af07b97cdfbe"
+    },
+    {
+      "file": "media/generated-living.webp",
+      "bytes": 280890,
+      "sha256": "bbee885dff19cc117edce95cf95cad5575ab0a8dc5a194b6d78ed63eef8e6d1e"
+    },
+    {
+      "file": "media/generated-materials-640.avif",
+      "bytes": 37168,
+      "sha256": "62e2128a85606de50d6d100fc4356a17c370f8635693288c80d74ead70a6a8f7"
+    },
+    {
+      "file": "media/generated-materials-640.webp",
+      "bytes": 65798,
+      "sha256": "8455a8e05cda18f35e36bdcc631db9ddbab3f6e0715169df78dc37f7136bc167"
+    },
+    {
+      "file": "media/generated-materials-960.avif",
+      "bytes": 81873,
+      "sha256": "f32d6afcaed6e8e71ebf59654625bd90a3e4e34e26e715890270fc8526979bb5"
+    },
+    {
+      "file": "media/generated-materials-960.webp",
+      "bytes": 140262,
+      "sha256": "597ea776283096867793349e3cfe0c2d22b158f53a71c169c3ea06d557626569"
+    },
+    {
+      "file": "media/generated-materials.avif",
+      "bytes": 183173,
+      "sha256": "3fafbc10e2953fab3d7513e818d50a6299edc26f090e5bb73cc2147a110cf5c1"
+    },
+    {
+      "file": "media/generated-materials.webp",
+      "bytes": 319764,
+      "sha256": "bed5989ca6b33b0761cbccbadf04a085fe503ff403ade85265a230c8bb260a0b"
+    }
+  ],
+  "note": "Source provenance records include shared family variants; only files in this public manifest are deployed by this preview."
+}

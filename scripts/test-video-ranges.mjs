@@ -7,7 +7,7 @@ globalThis.FixedLengthStream=class extends TransformStream {
   constructor(expected){let written=0;super({transform(chunk,c){written+=chunk.byteLength;c.enqueue(chunk);},flush(){assert.equal(written,expected);}});}
 };
 const filename=fileURLToPath(new URL('../functions/media/[[path]].js',import.meta.url));
-const source=(await readFile(filename,'utf8')).replace('import {videoSizes} from "../../lib/video-manifest.mjs";', 'const videoSizes={"/media/generated-architectural-journey.mp4":10};');
+const source=(await readFile(filename,'utf8')).replace('import {videoSizes} from "../../lib/video-manifest.mjs";', 'const videoSizes={"/media/wolco-project-journey-v2.mp4":10};');
 const {onRequest}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 const cases=[
   [{},200,'0123456789',null],
@@ -30,7 +30,7 @@ const cases=[
 for(const [headers,status,body,range,omitLength]of cases){
   const pending=[];
   let calls=0;
-  const response=await onRequest({request:new Request('https://demo.test/media/generated-architectural-journey.mp4',{headers}),env:{ASSETS:{fetch:async(request)=>{
+  const response=await onRequest({request:new Request('https://demo.test/media/wolco-project-journey-v2.mp4',{headers}),env:{ASSETS:{fetch:async(request)=>{
     calls++;assert.equal(request.headers.get('Range'),null);assert.equal(request.headers.get('If-Range'),null);
     const bytes=new TextEncoder().encode('0123456789');
     return new Response(new ReadableStream({start(c){for(let i=0;i<bytes.length;i+=3)c.enqueue(bytes.subarray(i,i+3));c.close();}}),{headers:{...(omitLength?{}:{'Content-Length':'10'}),ETag:'"fixture"','Content-Type':'video/mp4'}});
@@ -41,7 +41,7 @@ for(const [headers,status,body,range,omitLength]of cases){
   assert.equal(calls,1);
   await Promise.all(pending);
 }
-const head=await onRequest({request:new Request('https://demo.test/media/generated-architectural-journey.mp4',{method:'HEAD'}),env:{ASSETS:{fetch:async()=>new Response(null,{headers:{'Content-Length':'10'}})}}});
+const head=await onRequest({request:new Request('https://demo.test/media/wolco-project-journey-v2.mp4',{method:'HEAD'}),env:{ASSETS:{fetch:async()=>new Response(null,{headers:{'Content-Length':'10'}})}}});
 assert.equal(head.status,200);assert.equal(head.headers.get('Accept-Ranges'),'bytes');assert.equal(await head.text(),'');
 const fallback=await onRequest({request:new Request('https://demo.test/media/photo.webp'),next:()=>new Response('static')});
 assert.equal(await fallback.text(),'static');
